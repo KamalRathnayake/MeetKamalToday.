@@ -46,9 +46,6 @@ Creating the Resource Group
 
 Creating the VM in West US
 
-`az vm create --resource-group 03TrafficManager --name VM_WEST_US --image win2019datacenter --admin-username kamal --admin-password Hello@12345#`
-
-
-`az vm create --resource-group 03TrafficManager --name VM_WEST_US --image windows10preview --admin-username kamal --admin-password Hello@12345#`
+`az vm create --resource-group 03TrafficManager --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
 
 # Creating Traffic Manager Profile
