@@ -13,27 +13,13 @@
 
 # Creating WebApp
 
-Creating the the web app in West US
-
-`$loc = 'westus'`
-
-`$grp = '03TF'`
-
-`$pln = '03TF-WUS'`
-
-`az group create --name $grp --location $loc`
-
-`az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku Free`
-
-`az webapp create --name westusapp2021 --plan 03TFPlan --resource-group $grp`
-
 
 Creating the web app in Asia
 
 
 `$loc = 'southeastasia'`
 
-`$grp = '03TF'`
+`$grp = '03TrafficManager'`
 
 `$pln = '03TF-SEA'`
 
@@ -42,6 +28,16 @@ Creating the web app in Asia
 `az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku Free`
 
 `az webapp create --name seasiaapp2021 --plan 03TFPlan --resource-group $grp`
+
+Creating the the web app in West US
+
+`$loc = 'westus'`
+
+`$pln = '03TF-WUS'`
+
+`az appservice plan create --name 03TFPlanWUS --resource-group $grp --location $loc --sku Free`
+
+`az webapp create --name westusapp2021 --plan 03TFPlanWUS --resource-group $grp`
 
 # Creating a VM
 Creating the Resource Group
