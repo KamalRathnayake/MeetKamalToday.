@@ -13,7 +13,6 @@
 
 # Creating WebApp
 
-
 Creating the web app in Asia
 
 
@@ -41,6 +40,6 @@ Creating the the web app in West US
 
 # Creating a VM
 
-`az vm create --resource-group $grp --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
+`az vm create --resource-group --location westus $grp --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
 
 # Creating Traffic Manager Profile
