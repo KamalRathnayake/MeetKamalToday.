@@ -1,6 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-08-06T00:58:05.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ucZh2Nq3OeM-6jZ9KQcC" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-09T15:23:57.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="6pxlwE2cKg1cmyIDJtff" version="14.9.5" type="github" pages="2">
+  <diagram id="gxRKHkLpk5Vxv9CwUDUs" name="03 Traffic Manager">
+    <mxGraphModel dx="1435" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-0" />
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-1" parent="0lUzmIgK4o1mHfEmQP6s-0" />
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-2" value="&lt;b&gt;Users&lt;/b&gt;&lt;br&gt;WestUS" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontFamily=segoe ui;" vertex="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry x="140" y="480" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-3" value="&lt;b&gt;Users&lt;/b&gt;&lt;br&gt;South East Asia" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontFamily=segoe ui;" vertex="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry x="450" y="480" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-4" value="Azure Traffic &lt;br&gt;Manager Profile" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.traffic_manager;pointerEvents=1;fontFamily=segoe ui;" vertex="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry x="290" y="310" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-5" value="&lt;b&gt;Website&lt;/b&gt;&lt;br&gt;WestUS" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;fontFamily=segoe ui;" vertex="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry x="140" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-6" value="&lt;b&gt;Website&lt;/b&gt;&lt;br&gt;South East Asia" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;fontFamily=segoe ui;" vertex="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry x="440" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-7" value="" style="endArrow=classic;html=1;fontFamily=segoe ui;" edge="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="460" as="sourcePoint" />
+            <mxPoint x="369.9999999999998" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-8" value="" style="endArrow=classic;html=1;fontFamily=segoe ui;" edge="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.9999999999998" y="410" as="sourcePoint" />
+            <mxPoint x="429.9999999999998" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-9" value="" style="endArrow=classic;html=1;fontFamily=segoe ui;" edge="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339.9999999999998" y="290" as="sourcePoint" />
+            <mxPoint x="389.9999999999998" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0lUzmIgK4o1mHfEmQP6s-10" value="" style="endArrow=classic;html=1;fontFamily=segoe ui;" edge="1" parent="0lUzmIgK4o1mHfEmQP6s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.9999999999998" y="240" as="sourcePoint" />
+            <mxPoint x="349.9999999999998" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="481fZEa8v-3EdEy7qi1i" name="Page-1">
-    <mxGraphModel dx="990" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="1162" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
