@@ -33,3 +33,13 @@
 ## Creating a VM (Ubuntu)
 
 `az vm create --resource-group $grp --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
+
+## Creating SQL Server Db
+`
+$grp="SampleSQLRG"
+$serverName="myserver20210801"
+$databaseName="mydb1"
+
+az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@12345#
+
+az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Standard --zone-redundant false --backup-storage-redundancy Local`
