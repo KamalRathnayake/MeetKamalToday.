@@ -35,8 +35,7 @@
 `az vm create --resource-group $grp --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
 
 ## Creating SQL Server Db
-`
-$grp="SampleSQLRG"
+`$grp="SampleSQLRG"
 $serverName="myserver20210801"
 $databaseName="mydb1"
 
