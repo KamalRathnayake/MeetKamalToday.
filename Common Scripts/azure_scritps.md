@@ -41,4 +41,4 @@
 
 `az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@12345#`
 
-`az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Standard --zone-redundant false --backup-storage-redundancy Local``
+`az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Standard --zone-redundant false --backup-storage-redundancy Local`
