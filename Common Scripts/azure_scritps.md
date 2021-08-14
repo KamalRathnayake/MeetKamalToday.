@@ -32,4 +32,4 @@
 
 ## Creating a VM (Ubuntu)
 
-`az vm create --resource-group $grp --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
+`az vm create --resource-group $grp --location westus --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
