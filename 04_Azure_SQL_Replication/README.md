@@ -21,7 +21,9 @@
 `az group create --name $grp --location southeastasia`
 
 `# CREATING SQL SERVER`
+
 `az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@12345#`
 
 `# CREATING THE DATABASE`
+
 `az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Standard --zone-redundant false --backup-storage-redundancy Local`
