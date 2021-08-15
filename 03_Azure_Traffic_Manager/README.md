@@ -15,31 +15,30 @@
 
 Creating the web app in Asia
 
+```bash
+$loc = 'southeastasia'
+$grp = '03TrafficManager'
+$pln = '03TF-SEA'
 
-`$loc = 'southeastasia'`
+az group create --name $grp --location $loc
+az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku Free
+az webapp create --name seasiaapp2021 --plan 03TFPlan --resource-group $grp
+```
 
-`$grp = '03TrafficManager'`
+# Creating the the web app in West US
 
-`$pln = '03TF-SEA'`
+```bash
+$loc = 'westus'
+$pln = '03TF-WUS'
 
-`az group create --name $grp --location $loc`
-
-`az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku Free`
-
-`az webapp create --name seasiaapp2021 --plan 03TFPlan --resource-group $grp`
-
-Creating the the web app in West US
-
-`$loc = 'westus'`
-
-`$pln = '03TF-WUS'`
-
-`az appservice plan create --name 03TFPlanWUS --resource-group $grp --location $loc --sku Free`
-
-`az webapp create --name westusapp2021 --plan 03TFPlanWUS --resource-group $grp`
+az appservice plan create --name 03TFPlanWUS --resource-group $grp --location $loc --sku Free
+az webapp create --name westusapp2021 --plan 03TFPlanWUS --resource-group $grp
+```
 
 # Creating a VM
 
-`az vm create --resource-group $grp --location westus --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#`
+```bash
+az vm create --resource-group $grp --location westus --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#
+```
 
 # Creating Traffic Manager Profile
