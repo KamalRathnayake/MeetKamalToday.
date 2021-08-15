@@ -12,7 +12,7 @@
 # DEFINING VARIABLES
 $grp="AzureSQLGeoReplicationDemo"
 $serverName="myprimaryserver20210815"
-$databaseName="myprimarydb"
+$databaseName="mydatabase"
 
 # CREATING RESOURCE GROUP
 az group create --name $grp --location southeastasia
