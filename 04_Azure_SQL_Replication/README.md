@@ -31,7 +31,7 @@ az sql server show --name $serverName --resource-group $grp --output json --quer
 
 
 ```
-## ADDING SAMPLE DATA
+## Adding Sample Data
 ```sql
 CREATE TABLE Customers(Id INT IDENTITY PRIMARY KEY, Name NVARCHAR(255))
 INSERT INTO Customers(Name) VALUES ('Ann')
