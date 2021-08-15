@@ -1,9 +1,45 @@
 ## Create Storage
 
 ```bash
-$storageAccountName=funcappstorage2021
 $grp="StorageGroup"
-az storage account create --name $storageAccountName --resource-group $grp
+$location="southeastasia"
+$storageAccountName="samplestorage202108153"
+
+# CREATING RESOURCE GROUP
+az group create --name $grp --location $location
+
+# CREATING STORAGE ACCOUNT
+az storage account create --name $storageAccountName --resource-group $grp --location $location
+
+# LISTING CREDENTIALS
+# az storage account keys list -g $grp -n $storageAccountName
+az storage account show-connection-string -g $grp -n $storageAccountName
+
+az group delete --resource-group $grp --yes
+```
+
+## Create Storage with a Container
+
+```bash
+$grp="StorageGroup"
+$location="southeastasia"
+$storageAccountName="samplestorage202108153"
+$containerName="first-container"
+
+# CREATING RESOURCE GROUP
+az group create --name $grp --location $location
+
+# CREATING STORAGE ACCOUNT
+az storage account create --name $storageAccountName --resource-group $grp --location $location
+
+# LISTING CREDENTIALS
+# az storage account keys list -g $grp -n $storageAccountName
+az storage account show-connection-string -g $grp -n $storageAccountName
+
+# CREATING CONTAINER
+az storage container create --name $containerName --account-name $storageAccountName
+
+az group delete --resource-group $grp --yes
 ```
 
 ## Create Web Application
@@ -48,4 +84,87 @@ az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@1
 
 # CREATING THE DATABASE
 az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Standard --zone-redundant false --backup-storage-redundancy Local
+```
+
+## Networks Subnets & VMS
+
+```bash
+
+$grp="VirtualNetworksTestRG"
+$location="southeastasia"
+$vnetName="myfirstvnet"
+$subnetName="myfirstsubnet"
+$subnetName2="myfirstsubnet2"
+$nsgName="firstsecuritygroup"
+$vmName="MY_VM_1"
+$vmName2="MY_VM_2"
+
+# CREATE RESOURCE GROUP
+az group create --name $grp --location $location
+
+# CREATE VIRTUAL NETWORK
+az network vnet create --address-prefixes 10.0.0.0/16 --name $vnetName --resource-group $grp
+
+# CREATING SUBNETS
+az network vnet subnet create -g $grp --vnet-name $vnetName -n $subnetName --address-prefixes 10.0.0.0/24
+az network vnet subnet create -g $grp --vnet-name $vnetName -n $subnetName2 --address-prefixes 10.0.10.0/24
+
+# CREATING VMs IN EACH SUBNET
+az vm create --resource-group $grp --name $vmName --image ubuntults --vnet-name $vnetName --subnet $subnetName --admin-username kamal --admin-password Hello@12345#
+az vm create --resource-group $grp --name $vmName2 --image ubuntults --vnet-name $vnetName --subnet $subnetName2 --admin-username kamal --admin-password Hello@12345#
+
+az group delete --resource-group $grp --yes
+```
+
+## Networks Subnets VMS & NSGS (NOT COMPLETE)
+
+```bash
+
+$grp="VirtualNetworksTestRG"
+$location="southeastasia"
+$vnetName="myfirstvnet"
+$subnetName="myfirstsubnet"
+$subnetName2="myfirstsubnet2"
+$nsgName="firstsecuritygroup"
+$vmName="MY_VM_1"
+$vmName2="MY_VM_2"
+
+# CREATE RESOURCE GROUP
+az group create --name $grp --location $location
+
+# CREATE VIRTUAL NETWORK
+az network vnet create --address-prefixes 10.0.0.0/16 --name $vnetName --resource-group $grp
+
+# CREATING SUBNETS
+az network vnet subnet create -g $grp --vnet-name $vnetName -n $subnetName --address-prefixes 10.0.0.0/24
+az network vnet subnet create -g $grp --vnet-name $vnetName -n $subnetName2 --address-prefixes 10.0.10.0/24
+
+# CREATING VMs IN EACH SUBNET
+az vm create --resource-group $grp --name $vmName --image ubuntults --vnet-name $vnetName --subnet $subnetName --admin-username kamal --admin-password Hello@12345#
+az vm create --resource-group $grp --name $vmName2 --image ubuntults --vnet-name $vnetName --subnet $subnetName2 --admin-username kamal --admin-password Hello@12345#
+
+# CREATING NSG TO DISALLOW TRAFFIC
+az network nsg rule create -g $grp --nsg-name MyNsg -n MyNsgRule --priority 4096 --source-address-prefixes "*" --source-port-ranges "*" --destination-address-prefixes "*" --destination-port-ranges "*" --access Deny --protocol Tcp --description "Deny f"
+
+az group delete --resource-group $grp --yes
+```
+
+## EVENT HUBS
+
+```bash
+$grp="EventHubsDemoRG"
+$location="southeastasia"
+$namespaceName="MyEventHub202108"
+$eventHubName="TrafficFromSL"
+
+# CREATE RESOURCE GROUP
+az group create --name $grp --location $location
+
+# CREATING THE NAMESPACE
+az eventhubs namespace create --resource-group $grp --name $namespaceName --location $location --sku Standard --enable-auto-inflate --maximum-throughput-units 1
+
+# CREATING EVENTHUB
+az eventhubs eventhub create --resource-group $grp --namespace-name $namespaceName --name $eventHubName --message-retention 4 --partition-count 15
+
+az group delete --resource-group $grp --yes
 ```
