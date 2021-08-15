@@ -24,7 +24,7 @@ az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@1
 az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Standard --zone-redundant false --backup-storage-redundancy Local
 
 # ADDING A FIREWALL RULE TO CONNECT
-az sql server firewall-rule create --name $databaseName --server $serverName --resource-group $grp --start-ip-address 0.0.0.0 --end-ip-address 255.255.255.255
+az sql server firewall-rule create --name allowingall --server $serverName --resource-group $grp --start-ip-address 0.0.0.0 --end-ip-address 255.255.255.255
 
 ```
 ## ADDING SAMPLE DATA
