@@ -10,7 +10,7 @@
 ## Creating a database
 ```bash
 # DEFINING VARIABLES
-$grp="SampleSQLRG"
+$grp="AzureSQLGeoReplicationDemo"
 $serverName="myprimaryserver20210815"
 $databaseName="myprimarydb"
 
