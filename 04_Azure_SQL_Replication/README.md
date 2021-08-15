@@ -8,7 +8,7 @@
 
 
 ## Creating a database
-```
+```bash
 # DEFINING VARIABLES
 $grp="SampleSQLRG"
 $serverName="myserver20210801"
