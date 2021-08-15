@@ -31,6 +31,7 @@ az sql server firewall-rule create --name allowingall --server $serverName --res
 ```sql
 CREATE TABLE Customers(Id INT IDENTITY PRIMARY KEY, Name NVARCHAR(255))
 INSERT INTO Customers(Name) VALUES ('Ann')
+SELECT * FROM Customers
 
 INSERT INTO Customers(Name) VALUES ('Bob')
 ```
