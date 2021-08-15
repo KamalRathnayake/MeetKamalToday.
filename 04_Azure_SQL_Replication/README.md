@@ -27,4 +27,6 @@ az sql db create --resource-group $grp --server $serverName --name $databaseName
 ```sql
 CREATE TABLE Customers(Id INT IDENTITY PRIMARY KEY, Name NVARCHAR(255))
 INSERT INTO Customers(Name) VALUES ('Ann')
+
+INSERT INTO Customers(Name) VALUES ('Bob')
 ```
