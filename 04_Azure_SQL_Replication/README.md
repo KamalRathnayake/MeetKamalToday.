@@ -11,8 +11,8 @@
 ```bash
 # DEFINING VARIABLES
 $grp="SampleSQLRG"
-$serverName="myserver20210801"
-$databaseName="mydb1"
+$serverName="myprimaryserver20210815"
+$databaseName="myprimarydb"
 
 # CREATING RESOURCE GROUP
 az group create --name $grp --location southeastasia
