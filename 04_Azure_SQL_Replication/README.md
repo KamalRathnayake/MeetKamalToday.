@@ -26,6 +26,10 @@ az sql db create --resource-group $grp --server $serverName --name $databaseName
 # ADDING A FIREWALL RULE TO CONNECT
 az sql server firewall-rule create --name allowingall --server $serverName --resource-group $grp --start-ip-address 0.0.0.0 --end-ip-address 255.255.255.255
 
+# DISPLAYING INFORMATION
+az sql server show --name $serverName --resource-group $grp --output json --query '[fullyQualifiedDomainName, administratorLogin]'
+
+
 ```
 ## ADDING SAMPLE DATA
 ```sql
