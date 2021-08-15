@@ -41,4 +41,4 @@ az webapp create --name westusapp2021 --plan 03TFPlanWUS --resource-group $grp
 az vm create --resource-group $grp --location westus --name VM_WEST_US --image ubuntults --admin-username kamal --admin-password Hello@12345#
 ```
 
-# Creating Traffic Manager Profile
+# Creating Traffic Manager Profile Test
