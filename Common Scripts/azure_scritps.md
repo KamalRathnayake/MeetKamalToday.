@@ -1,4 +1,4 @@
-## Create Storage 1
+## Create Storage 2
 
 ```bash
 $grp="StorageGroup"
