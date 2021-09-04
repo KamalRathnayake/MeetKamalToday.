@@ -1,0 +1,22 @@
+body{
+    background-color: #2a2a2a;
+}
+
+.zone-container{
+    display: flex;
+}
+
+
+.zone{
+    background-color: blue;
+    width:150px;
+    padding: 30px;
+    color: white;
+    font-family: 'inter';
+    text-align: center;
+    /* border-left: 2px solid white; */
+}
+
+.zone:not(:first-of-type){
+    border-left: 2px solid green;
+}

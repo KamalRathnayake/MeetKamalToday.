@@ -56,8 +56,10 @@ az webapp create --name seasiaapp2021 --plan 03TFPlan --resource-group $grp
 
 ## Create Function App
 ```bash
-$storageAccountName=funcappstorage2021
+$storageAccountName="funcappstorage2021"
+$loc = 'southeastasia'
 $grp="StorageGroup"
+az group create --name $grp --location $loc
 az storage account create --name $storageAccountName --resource-group $grp
 az functionapp create --name apibackend2021 --resource-group $grp --consumption-plan-location westus --os-type Windows --runtime dotnet --storage funcappstorage2021
 ```
@@ -70,7 +72,7 @@ az vm create --resource-group $grp --name VM_WEST_US --image ubuntults --admin-u
 ```
 ## Creating SQL Server Db
 
-```
+```bash
 # DEFINING VARIABLES
 $grp="SampleSQLRG"
 $serverName="myserver20210801"
@@ -167,4 +169,44 @@ az eventhubs namespace create --resource-group $grp --name $namespaceName --loca
 az eventhubs eventhub create --resource-group $grp --namespace-name $namespaceName --name $eventHubName --message-retention 4 --partition-count 15
 
 az group delete --resource-group $grp --yes
+```
+
+## Creating AppInsights
+```bash
+
+$grp="InsightsDemoRG"
+$location="southeastasia"
+$name="MyInsights"
+
+# CREATE RESOURCE GROUP
+az group create --name $grp --location $location
+
+# CREATING APP INSIGHTS
+az monitor app-insights component create --app $name --location $location --resource-group $grp
+
+az group delete --resource-group $grp --yes
+```
+
+
+## Automatically Setting App Settings
+
+```bash
+$loc = 'southeastasia'
+$appname='seasiaapp20210825'
+$grp = '05AzureCDNRG'
+$pln = '05cdntestplan'
+$cdnprofile = '05CDNProfile'
+
+az group create --name $grp --location $loc
+az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku Free
+az webapp create --name $appname --plan 03TFPlan --resource-group $grp
+
+$storageAccountName="samplestorage202108153"
+$containerName="first-container"
+
+az storage account create --name $storageAccountName --resource-group $grp --location $loc
+
+$conString=(az storage account show-connection-string -g $grp -n $storageAccountName -o json --query connectionString)
+
+az webapp config appsettings set -g $grp -n $appname --settings StorageConnectionString=$conString
 ```

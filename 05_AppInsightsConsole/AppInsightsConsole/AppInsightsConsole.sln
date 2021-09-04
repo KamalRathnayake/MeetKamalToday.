@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationInsightsWithSDK", "ApplicationInsightsWithSDK\ApplicationInsightsWithSDK.csproj", "{C41F0E04-98D0-4AEA-93FC-072D799FCCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationInsightsWithSerilog", "ApplicationInsightsWithSerilog\ApplicationInsightsWithSerilog.csproj", "{FD1EE81B-B7C7-4D05-83B4-1C690D3C152B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C41F0E04-98D0-4AEA-93FC-072D799FCCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41F0E04-98D0-4AEA-93FC-072D799FCCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41F0E04-98D0-4AEA-93FC-072D799FCCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41F0E04-98D0-4AEA-93FC-072D799FCCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1EE81B-B7C7-4D05-83B4-1C690D3C152B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1EE81B-B7C7-4D05-83B4-1C690D3C152B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1EE81B-B7C7-4D05-83B4-1C690D3C152B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1EE81B-B7C7-4D05-83B4-1C690D3C152B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2782D20-B473-4387-9996-97BCC18F6FE3}
+	EndGlobalSection
+EndGlobal
