@@ -2,7 +2,7 @@
 $loc = "southeastasia"
 $grp = "06OverloadTestRG"
 $pln = "06OLTEST-SEA"
-$appname = "seasiaapp2021"
+$appname = "mysampleapp202109"
 
 az group create --name $grp --location $loc
 az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku S1
