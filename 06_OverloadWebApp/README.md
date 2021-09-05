@@ -1,4 +1,4 @@
-
+```bash
 $loc = "southeastasia"
 $grp = "06OverloadTestRG"
 $pln = "06OLTEST-SEA"
@@ -8,11 +8,14 @@ az group create --name $grp --location $loc
 az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku S1
 az webapp create --name $appname --plan 03TFPlan --resource-group $grp
 az webapp deployment user set --user-name kamal1 --password kamal12345
+```
 
 # CREATING DOTNET APPLICATION
+```bash
 mkdir mywebapi
 cd mywebapi
-dotnet new webapi --framework netcoreapp3.1
+dotnet new webapi --framework netcoreapp3.1 --no-restore
+```
 
 ```csharp
 using System;
@@ -68,6 +71,7 @@ namespace mywebapi.Controllers
 }
 
 ```
+```bash
 git init
 git add .
 git commit -m initial
@@ -79,4 +83,4 @@ $url=$(az webapp deployment source config-local-git --name $appname --resource-g
 
 git remote add azure1 $url
 git push azure1 master
-
+```

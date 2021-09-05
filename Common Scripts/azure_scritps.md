@@ -210,3 +210,15 @@ $conString=(az storage account show-connection-string -g $grp -n $storageAccount
 
 az webapp config appsettings set -g $grp -n $appname --settings StorageConnectionString=$conString
 ```
+
+## Web App Deployment Source Settings
+```bash
+$app="sampleapp202109"
+$grp="samplegrouprg"
+az webapp deployment source config --branch main --manual-integration --name $app --repo-url https://github.com/KamalRathnayake/delete_dotnetmvc.git --resource-group $grp
+az webapp deployment source sync --name $app --resource-group $grp
+az webapp show --name $app --resource-group $grp
+az webapp deployment slot create --name $app --slot staging2 --resource-group $grp
+az webapp deployment github-actions add --repo https://github.com/KamalRathnayake/delete_dotnetmvc.git --name $app --resource-group $grp --login-with-github
+
+```
