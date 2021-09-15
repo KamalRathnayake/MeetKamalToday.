@@ -1,17 +1,18 @@
-$grp="SerivceBusDemoRG"
-$location="southeastasia"
-$namespaceName="MySBNamespace202109"
+```bash
 $storageAccountName="funcappstorage2021"
+$loc = 'southeastasia'
+$grp="QBLLRG"
+$sbNamespaceName = "kamalsnamespace"
+$sbQueueName = "the-queue"
 
-# CREATE RESOURCE GROUP
-az group create --name $grp --location $location
-
-# CREATING SERVICE BUS NAMESPACE
-az servicebus namespace create --resource-group $grp --name $namespaceName --location $location --tags --sku Basic
-
-# CREATOMG SERVICE BUS QUEUE
-az servicebus queue create --resource-group $grp --namespace-name $namespaceName --name the-queue
-
-# CREATING AZURE FUNCTION APP
+az group create --name $grp --location $loc
 az storage account create --name $storageAccountName --resource-group $grp
 az functionapp create --name apibackend2021 --resource-group $grp --consumption-plan-location westus --os-type Windows --runtime dotnet --storage funcappstorage2021
+
+
+az servicebus namespace create --resource-group $grp --name $sbNamespaceName --location $loc --sku Basic
+az servicebus queue create --resource-group $grp --namespace-name $sbNamespaceName --name $sbQueueName
+$key=(az servicebus namespace authorization-rule keys list --resource-group $grp --namespace-name $sbNamespaceName --name RootManageSharedAccessKey --output json --query primaryConnectionString)
+echo $key
+
+```

@@ -13,10 +13,10 @@ namespace APIApp.Controllers
     [Route("[controller]")]
     public class QueueController : ControllerBase
     {
-        static string connectionString = "Endpoint=sb://mysbnamespace202109.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=175AbY859MPka+sxeg3WDPjNAbBhdkfybn0uyVA41yw=";
-        static string queueName = "the-queue";
-        static ServiceBusClient client;
-        static ServiceBusSender sender;
+        string connectionString = "Endpoint=sb://kamalsnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=c+fx9x8HbnsZRXwC2TlNs1qJb9JeMdih4zTSlHkNC7Y=";
+        string queueName = "the-queue";
+        ServiceBusClient client;
+        ServiceBusSender sender;
 
         [HttpGet]
         [Route("{id}")]
