@@ -13,7 +13,7 @@ namespace APIApp.Controllers
     [Route("[controller]")]
     public class QueueController : ControllerBase
     {
-        string connectionString = "Endpoint=sb://kamalsnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=c+fx9x8HbnsZRXwC2TlNs1qJb9JeMdih4zTSlHkNC7Y=";
+        string connectionString = "Endpoint=sb://kamalsnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Kia0ARAN4Hi4zsMdeC8etmqGFnPPJOXJau/FA/gcTcc=";
         string queueName = "the-queue";
         ServiceBusClient client;
         ServiceBusSender sender;

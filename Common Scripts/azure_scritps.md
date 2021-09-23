@@ -50,8 +50,8 @@ $grp = '03TrafficManager'
 $pln = '03TF-SEA'
 
 az group create --name $grp --location $loc
-az appservice plan create --name 03TFPlan --resource-group $grp --location $loc --sku Free
-az webapp create --name seasiaapp2021 --plan 03TFPlan --resource-group $grp
+az appservice plan create --name $pln --resource-group $grp --location $loc --sku Free
+az webapp create --name seasiaapp2021 --plan $pln --resource-group $grp
 ```
 
 ## Create Function App
@@ -221,4 +221,14 @@ az webapp show --name $app --resource-group $grp
 az webapp deployment slot create --name $app --slot staging2 --resource-group $grp
 az webapp deployment github-actions add --repo https://github.com/KamalRathnayake/delete_dotnetmvc.git --name $app --resource-group $grp --login-with-github
 
+```
+
+## Building docker
+```bash
+$grp = 'ContainerFromCLIRG'
+$loc = 'southeastasia'
+$appname = 'sampleff20210917'
+
+az group create --name $grp --location $loc --tags CreatedBy=kamalr@99x.io
+az container create -g $grp --name $appname --image mcr.microsoft.com/azuredocs/aci-helloworld:latest --ports 80 443 --cpu 1 --memory 1
 ```
