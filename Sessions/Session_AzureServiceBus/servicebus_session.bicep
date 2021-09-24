@@ -49,10 +49,6 @@ resource functionApp 'Microsoft.Web/sites@2020-06-01' = {
     siteConfig: {
       appSettings: [
         {
-          name: 'AzureWebJobsStorage'
-          value: 'DefaultEndpointsProtocol=https;AccountName=${storageAccountForFunctions.name};EndpointSuffix=${environment().suffixes.storage};AccountKey=${listKeys(storageAccountForFunctions.id, storageAccountForFunctions.apiVersion).keys[0].value}'
-        }
-        {
           'name': 'FUNCTIONS_EXTENSION_VERSION'
           'value': '~3'
         }
@@ -60,11 +56,6 @@ resource functionApp 'Microsoft.Web/sites@2020-06-01' = {
           'name': 'FUNCTIONS_WORKER_RUNTIME'
           'value': 'dotnet'
         }
-        {
-          name: 'WEBSITE_CONTENTAZUREFILECONNECTIONSTRING'
-          value: 'DefaultEndpointsProtocol=https;AccountName=${storageAccount.name};EndpointSuffix=${environment().suffixes.storage};AccountKey=${listKeys(storageAccount.id, storageAccount.apiVersion).keys[0].value}'
-        }
-      ]
     }
   }
 
