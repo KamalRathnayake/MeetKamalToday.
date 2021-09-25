@@ -6,7 +6,7 @@ namespace MessageProvider
 {
     class Program
     {
-        static string connectionString = "Endpoint=sb://demo20210924sbnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=/euADT0BrWkqtCIxO/13z4ZPkqyq+ZE3iMQMf/l4Ft0=";
+        static string connectionString = "";
         static string queueName = "the-queue";
         static ServiceBusClient client;
         static ServiceBusSender sender;
