@@ -1,3 +1,5 @@
+```bash
+
 $grp="MyVPNRG"
 $location="southeastasia"
 $vmName="MyVPNServer"
@@ -29,3 +31,5 @@ apt install vnstat -y
 vnstat -h -l
 
 # CONNECT WITH OPENVPN CLIENT
+
+```
