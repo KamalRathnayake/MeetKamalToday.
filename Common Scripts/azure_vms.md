@@ -17,9 +17,9 @@ apt install nginx -y
 systemctl status nginx
 
 # INSTALLING APACHE
-apt-get upgrade
-apt-get update
-apt-get install apache2
+apt-get upgrade -y
+apt-get update -y
+apt-get install apache2 -y
 
 # INSTALLING DOTNET
 wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
