@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T12:54:57.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="gshuMXJYTpNz-taojI-T" version="15.0.6" type="github"><diagram id="osvHVhCDuWq-PPdf_0-3" name="Page-1">7Vldj9soFP01eWzk79iPcTzpVppqZ5WH1e5LRGzsoGLjAs4k/fULNv72TCZJM+1K44fIHOAC9xwuF2dmrtLjZwry/VcSQTwztOg4M4OZYXiuIX4lcKoAW1dAQlFUQVoLbNAPWIF6jRYogkxhFcQJwRzlfTAkWQZD3sMApeS53ywmOOoBOUjgCNiEAI/Rv1HE9wp1NK2t+AOiZK+G9uqKFNSNFcD2ICLPHch8mJkrSgiv3tLjCmLpu75f1i/UNhOjMONv6fD4+U/XT/6Nab6yM2sT/2NmxSdl5QBwoRY8Mxws7Pk78ZLIl+XTF9HiIYtygsRIdTWt62tEjNz2+VFQKHot81z8biA9oBAqN/BT7VvA8oqyGB2hmKW/5ykWRV28loOV3Nn+zA4EAjBKMgGEYr2QCgClJXd+TDKuhCPE1eABShMxJ4zErNYpC4GYwFpMaKumw+bskKjua5AiLBXKYELkxAtUrqj0DaQcHl90ut5QKbYAJCnk9CSaqA6mpdg/DcrPrZhsBe07MqoxoOSbNJZbhuWyKpIvINw8T/hXyJj0oKH9VUDR6iLGG641v2CtiXPMl3RD+nCAFetSAs2G0UQhAmwvW5aFjk4Yp+QbXBFMhCSCjGRSERjsIH4iDHFEepKRXCKxuR8HDXaEc5J2GiyV2DjJp6QXI4zrMWeGqWm66wbVlHO5xPSYyGg4B9Ir8+/SB9sEZpCi8N6KsxcDxdljxenahOTMe0nOOi+5FclYkUJ6mdbWRRaWBKpA8+vCS8mzdFNI0rzgMtLUk9uKqb1LqHGHoca0R8Q77ph35168L87zvuGElqHmEtpXhKVExpbA/y04jwAHO8BEliLOFwluqxluA/89eNc1d0C84YyJtyaIt+5EvDtB/IAnmEVLmZ1J52PAWBkXO1wNAmwEoBuHo3AvapzQhbu4qalzNOMNXofRKPU76/M3HtsUYsDRoW9+ys9qhKcqtaoptcwBo441XwysMFLQEKqO3bRvYMsehoUJWxzQBPKRrZL8ZvHX60GfyjI/BHGBIBbaFIla+1jXicPVL7N7b6EYH0K5TSje5G6/XSi6Zv9eSplKKgdKGTEelU/3ZqGP6JcIJUUWlZcNWQI7RrDI6ZY0rFMCiTaltwjmpgPe0xc91+vmREZvTWjqbpmdbk94v0rYpCfKzzG1153vBakyObMSSheqEjsfZN86CV9lop8HtpnhBqQ5Lr8tyO8SA8p7t0T1SQjsylrt1TBh6661Nl+6Tw6vdUmYG/M9PH4J5e3Rz2n1EoAcbUEG8EncIZmsAJSr8YZXUlrR9OKNNEVRJOfd5KgYxt329QW1acdyEKIseSybBbaiorNEr3wmktsbxfvK/hxLWklYm4/vJtZEimp6PyUq2r3980n36uFrEySOGbxPoHJ+/ZGmv0pys2f0/8H55rpu/xgSXGrdx7nufPOMvl1D8973PJu6LH/I5Oo0yBzQqZvX6cL1+mdvc7e+WRei2H77r5q3f6CYD/8B</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-29T03:14:19.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="p5IpXQrTWPZ8OqAl74S4" version="15.3.3" type="github">
+  <diagram id="osvHVhCDuWq-PPdf_0-3" name="Page-1">
+    <mxGraphModel dx="2062" dy="1132" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-1" value="&lt;b&gt;API Endpoint&lt;br&gt;&lt;/b&gt;Azure App Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="340" y="340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-3" value="&lt;b&gt;Message Queue&lt;br&gt;&lt;/b&gt;Azure Service Bus Queue" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="570" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-4" value="&lt;b&gt;Consumer&lt;br&gt;&lt;/b&gt;Azure Function App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="840" y="335" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-7" value="&lt;b&gt;Storage&lt;br&gt;&lt;/b&gt;Azure Cosmos DB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="326" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-8" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="364.71" as="sourcePoint" />
+            <mxPoint x="540" y="364.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-11" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="364.71000000000004" as="sourcePoint" />
+            <mxPoint x="810" y="364.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-12" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="364.71000000000004" as="sourcePoint" />
+            <mxPoint x="1050" y="364.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-14" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="917" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-15" value="&lt;font color=&quot;#000000&quot;&gt;Bank&lt;/font&gt;&lt;br&gt;Sample API" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=api_analytics;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;fontFamily=segoe ui;" parent="LGO8BgZfrpC5n4SfY3nu-14" vertex="1">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-16" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontFamily=segoe ui;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="888" y="319.00000000000006" as="sourcePoint" />
+            <mxPoint x="928" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGO8BgZfrpC5n4SfY3nu-17" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontFamily=segoe ui;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="938" y="213" as="sourcePoint" />
+            <mxPoint x="897" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
