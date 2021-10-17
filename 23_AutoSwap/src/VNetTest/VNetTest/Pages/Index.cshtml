@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    var client = new System.Net.Http.HttpClient();
+    var res = client.GetAsync("http://10.0.0.4").GetAwaiter().GetResult();
+    var content = res.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+}
+
+<div class="text-center">
+    <h1 class="display-4">@content</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

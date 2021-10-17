@@ -6,14 +6,14 @@ namespace MessageProvider
 {
     class Program
     {
-        static string connectionString = "";
+        static string connectionString = "Endpoint=sb://kamalsnamespace1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=QT5b4akuHUuqJCPpUnfB2+Pvaa1ipJNctoC70tmuIIE=";
         static string queueName = "the-queue";
         static ServiceBusClient client;
         static ServiceBusSender sender;
         static int index = 1;
         static void Main(string[] args)
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 20; i++)
             {
                 Console.Write($"Sending batch {i}");
                 SendBatch(1000);

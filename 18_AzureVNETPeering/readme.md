@@ -1,6 +1,6 @@
 
 ```bash
-$grp="VNETPeeringTest2RG"
+$grp="VNETPeeringTestRG"
 $location="southeastasia"
 $vnetName="SEA_VNET"
 $subnetName="SEA_SUBNET_1"
