@@ -1,3 +1,4 @@
+```bash
 $grp="ManagedIdentityTestRG"
 $serverName="sqlserver2021102311"
 $databaseName="sqldatabase"
@@ -33,3 +34,4 @@ SELECT * FROM Customers
 create user [managedidentitydemo20211023] from external provider;
 alter role db_datareader add member [managedidentitydemo20211023];
 alter role db_datawriter add member [managedidentitydemo20211023];
+```
