@@ -23,17 +23,16 @@ namespace ManagedIdentityDemo.Models
 
         public virtual DbSet<Customers> Customers { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            SqlConnection connection = new SqlConnection();
-            //connection.ConnectionString = "Server=sqlserver20210815.database.windows.net;Database=sqldatabase;User Id=kamal;Password=Hello@12345#;";
-            connection.ConnectionString = "Server=sqlserver20210815.database.windows.net;Database=sqldatabase;";
-            AzureServiceTokenProvider provider = new AzureServiceTokenProvider();
-            var token = provider.GetAccessTokenAsync("https://database.windows.net").GetAwaiter().GetResult();
-            connection.AccessToken = token;
-
-            optionsBuilder.UseSqlServer(connection);
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    SqlConnection connection = new SqlConnection();
+        //    //connection.ConnectionString = "Server=sqlserver20210815.database.windows.net;Database=sqldatabase;User Id=kamal;Password=Hello@12345#;";
+        //    connection.ConnectionString = "Server=sqlserver2021102311.database.windows.net;Database=sqldatabase;";
+        //    AzureServiceTokenProvider provider = new AzureServiceTokenProvider();
+        //    var token = provider.GetAccessTokenAsync("https://database.windows.net").GetAwaiter().GetResult();
+        //    //connection.AccessToken = token;
+        //    optionsBuilder.UseSqlServer(connection);
+        //}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Customers>(entity =>

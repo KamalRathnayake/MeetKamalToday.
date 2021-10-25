@@ -1,6 +1,4 @@
-using Azure.Core;
-using Azure.Identity;
-using ManagedIdentityDemo.Models;
+using ManagedIdentityDemo.Model;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +28,7 @@ namespace ManagedIdentityDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddDbContext<SqldatabaseContext>(options =>
             {
                 SqlAuthenticationProvider.SetProvider(
@@ -45,7 +44,7 @@ namespace ManagedIdentityDemo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseDeveloperExceptionPage();
+            app.UseDeveloperExceptionPage(); 
 
             app.UseHttpsRedirection();
 

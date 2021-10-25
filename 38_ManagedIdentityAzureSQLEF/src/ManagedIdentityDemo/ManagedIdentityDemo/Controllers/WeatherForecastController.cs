@@ -1,6 +1,4 @@
-﻿using Azure.Identity;
-using Azure.Storage.Blobs;
-using ManagedIdentityDemo.Models;
+﻿using ManagedIdentityDemo.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
