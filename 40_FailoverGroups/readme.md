@@ -1,3 +1,4 @@
+```bash
 $grp="AutoFailoverGroupsDemo"
 $serverName="myprimaryserver20211028"
 $secondaryServerName="mysecondaryserver20211028"
@@ -30,3 +31,5 @@ INSERT INTO Customers(Name) VALUES ('Ann')
 INSERT INTO Customers(Name) VALUES ('Bob')
 
 SELECT * FROM Customers
+
+```
