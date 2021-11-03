@@ -35,7 +35,6 @@ az sql server show --name $serverName --resource-group $grp --output json --quer
 ```sql
 CREATE TABLE Customers(Id INT IDENTITY PRIMARY KEY, Name NVARCHAR(255))
 INSERT INTO Customers(Name) VALUES ('Ann')
-SELECT * FROM Customers
-
 INSERT INTO Customers(Name) VALUES ('Bob')
+SELECT * FROM Customers
 ```

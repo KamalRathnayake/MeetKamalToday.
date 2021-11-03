@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorageAPI", "TableStorageAPI\TableStorageAPI.csproj", "{CB0E96CC-3407-45D3-882D-0F12E39D5E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp1", "FunctionApp1\FunctionApp1.csproj", "{9EADA157-B26B-45E3-B292-C8F7FC51A6AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB0E96CC-3407-45D3-882D-0F12E39D5E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0E96CC-3407-45D3-882D-0F12E39D5E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0E96CC-3407-45D3-882D-0F12E39D5E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0E96CC-3407-45D3-882D-0F12E39D5E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EADA157-B26B-45E3-B292-C8F7FC51A6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EADA157-B26B-45E3-B292-C8F7FC51A6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EADA157-B26B-45E3-B292-C8F7FC51A6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EADA157-B26B-45E3-B292-C8F7FC51A6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2856AC5E-4592-4812-A1B4-7DE3F40EC370}
+	EndGlobalSection
+EndGlobal
