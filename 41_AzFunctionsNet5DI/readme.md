@@ -1,21 +1,11 @@
-# What is Azure SQL Geo-Replication?
-    - Why? the use cases
-    - How it works underneath?
-      - How the data is transferred
-      - The latency
-      - Limits
-    - Enabling geo-replication for your database
-
-
-## Creating a database
 ```bash
-# DEFINING VARIABLES
-$grp="AzureSQLGeoReplicationDemo"
-$serverName="myprimaryserver20210815"
+
+$grp="AZFDIDemo"
+$serverName="myserver20211031"
 $databaseName="mydatabase"
 
 # CREATING RESOURCE GROUP
-az group create --name $grp --location southeastasia
+az group create --name $grp --location southeastasia --tags CreatedBy=kamalr@99x.io
 
 # CREATING SQL SERVER
 az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@12345#
@@ -30,11 +20,9 @@ az sql server firewall-rule create --name allowingall --server $serverName --res
 az sql server show --name $serverName --resource-group $grp --output json --query '[fullyQualifiedDomainName, administratorLogin]'
 
 
-```
-## Adding Sample Data
-```sql
 CREATE TABLE Customers(Id INT IDENTITY PRIMARY KEY, Name NVARCHAR(255))
 INSERT INTO Customers(Name) VALUES ('Ann')
 INSERT INTO Customers(Name) VALUES ('Bob')
 SELECT * FROM Customers
+
 ```
