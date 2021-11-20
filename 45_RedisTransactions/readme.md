@@ -3,7 +3,7 @@ $grp="RedisDemoRG"
 $redisName="redis20211119"
 $loc="southeastasia"
 
-az group create --name $grp --location $loc --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $loc
 
 az redis create --name $redisName --resource-group $grp --location $loc --vm-size C0 --sku Basic
 

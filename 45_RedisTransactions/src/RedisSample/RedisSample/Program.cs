@@ -5,7 +5,7 @@ namespace RedisSample
 {
     class Program
     {
-        static string redisConnectionString = "kqaieNz7loYVrl7Tefo5i4untfz2WXv9IAzCaMDbNHU=@redis20211119.redis.cache.windows.net:6380?ssl=true";
+        static string redisConnectionString = "";
         static void Main(string[] args)
         {
             bool transactionResult = false;
@@ -14,11 +14,9 @@ namespace RedisSample
             using (var transaction = redisClient.CreateTransaction())
             {
                 transaction.QueueCommand(c => c.Set("K1", "Ann2"));
+                transaction.QueueCommand(c => c.Set("K2", "Bob"));
 
-                //transaction.Rollback();
-                //transaction.QueueCommand(c => c.Set("K2", "Bob"));
-
-                //transactionResult = transaction.Commit();
+                transactionResult = transaction.Commit();
             }
 
             if (transactionResult)
