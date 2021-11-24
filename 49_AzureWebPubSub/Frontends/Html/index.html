@@ -1,0 +1,32 @@
+<html>
+
+<body>
+    <h1>Azure Web PubSub Serverless Chat App</h1>
+    <div id="login"></div>
+    <p></p>
+    <input id="message" placeholder="Type to chat...">
+    <div id="messages"></div>
+    <script>
+        (async function () {
+            // negotiate
+            let messages = document.querySelector('#messages');
+            
+            // connect
+            let ws = new WebSocket("wss://webpub1.webpubsub.azure.com/client/hubs/first_hub?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ3c3M6Ly93ZWJwdWIxLndlYnB1YnN1Yi5henVyZS5jb20vY2xpZW50L2h1YnMvZmlyc3RfaHViIiwiaWF0IjoxNjM3NzYzNTkwLCJleHAiOjE2Mzc3NjcxOTB9.d-kG3V3C2Id0XsvtnAFprVQ5HvLOdt977SG4JPAVhH4");
+            ws.onopen = () => console.log('connected');
+            ws.onmessage = event => {
+                let m = document.createElement('p');
+                m.innerText = event.data;
+                messages.appendChild(m);
+            };
+            let message = document.querySelector('#message');
+            message.addEventListener('keypress', e => {
+                if (e.charCode !== 13) return;
+                ws.send(message.value);
+                message.value = '';
+            });
+        })();
+    </script>
+</body>
+
+</html>
