@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPubSubBackend", "WebPubSubBackend\WebPubSubBackend.csproj", "{9A8624BA-4809-4D05-AF86-6BCA0D040FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPubSubBackendConsoleApp", "WebPubSubBackendConsoleApp\WebPubSubBackendConsoleApp.csproj", "{302AB18B-FD25-45C7-AE66-29DB18DBE193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A8624BA-4809-4D05-AF86-6BCA0D040FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8624BA-4809-4D05-AF86-6BCA0D040FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8624BA-4809-4D05-AF86-6BCA0D040FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8624BA-4809-4D05-AF86-6BCA0D040FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302AB18B-FD25-45C7-AE66-29DB18DBE193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302AB18B-FD25-45C7-AE66-29DB18DBE193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302AB18B-FD25-45C7-AE66-29DB18DBE193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302AB18B-FD25-45C7-AE66-29DB18DBE193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77698D31-707C-4EB8-9D0A-2EEE7FF30BB1}
+	EndGlobalSection
+EndGlobal

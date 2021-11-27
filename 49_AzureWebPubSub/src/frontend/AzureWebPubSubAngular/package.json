@@ -1,13 +1,12 @@
 {
-  "name": "angular-azure-web-pub-sub-demo",
+  "name": "azure-web-pub-sub-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "postinstall": "node patch.js"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -19,14 +18,13 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
-    "@azure/web-pubsub": "^1.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.10",
-    "@angular/cli": "~12.2.10",
+    "@angular-devkit/build-angular": "~12.2.12",
+    "@angular/cli": "~12.2.12",
     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",
@@ -37,8 +35,5 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.5"
-  },
-  "browser": {
-    "crypto": false
-}
+  }
 }

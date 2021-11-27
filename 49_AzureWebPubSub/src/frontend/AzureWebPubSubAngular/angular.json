@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularAzureWebPubSubDemo": {
+    "AzureWebPubSubAngular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AngularAzureWebPubSubDemo",
+            "outputPath": "dist/AzureWebPubSubAngular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AngularAzureWebPubSubDemo:build:production"
+              "browserTarget": "AzureWebPubSubAngular:build:production"
             },
             "development": {
-              "browserTarget": "AngularAzureWebPubSubDemo:build:development"
+              "browserTarget": "AzureWebPubSubAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AngularAzureWebPubSubDemo:build"
+            "browserTarget": "AzureWebPubSubAngular:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "AngularAzureWebPubSubDemo"
+  "defaultProject": "AzureWebPubSubAngular"
 }
