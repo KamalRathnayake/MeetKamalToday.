@@ -1,6 +1,4 @@
-## Creating WebApp
-
-Creating the web app in Asia
+## Creating the web app in Asia
 
 ```bash
 $loc = 'southeastasia'
