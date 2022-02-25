@@ -1,0 +1,13 @@
+﻿@page "/"
+
+<button @onclick="SayHello">abSay Hello dx1 12rx</button>
+<h1>@message</h1>
+
+
+@code {
+    private string message;
+    private void SayHello()
+    {
+        this.message = "Welcome to our first Blazor App on Azure!";
+    }
+}

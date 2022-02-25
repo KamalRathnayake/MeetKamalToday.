@@ -10,4 +10,4 @@ az group create --name $grp --location $location
 az storage account create --name $storageAccountName --resource-group $grp
 
 # CREATING VM
-az vm create --resource-group $grp --name $vmName --image Win2019Datacenter --admin-username kamal --admin-password Hello@12345$
+az vm create --resource-group $grp --name $vmName --image Win2019Datacenter --admin-username kamal --admin-password Hello@12345#

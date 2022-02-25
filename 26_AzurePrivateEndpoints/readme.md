@@ -8,7 +8,7 @@ $databaseName="mydatabase"
 az group create --name $grp --location $location
 
 # CREATING VM
-az vm create --resource-group $grp --name $vmName --image Win2019Datacenter --admin-username kamal --admin-password Hello@12345$
+az vm create --resource-group $grp --name $vmName --image Win2019Datacenter --admin-username kamal --admin-password Hello@12345#
 
 # CREATING SQL SERVER
 az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@12345#
