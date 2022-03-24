@@ -1,4 +1,4 @@
-$grp="EnvEastUSRG"
+```$grp="EnvEastUSRG"
 $loc = 'eastus'
 $pln = 'appservicehatest'
 $serverName="primaryserver20220217"
@@ -40,3 +40,4 @@ az webapp config appsettings set -g EnvEastUSRG -n $backendapp1 --settings Datab
 az webapp config appsettings set -g EnvWestUSRG -n $backendapp2 --settings DatabaseServer=usersdb-fg.database.windows.net
 az webapp config appsettings set -g EnvEastUSRG -n $backendapp1 --settings Region="EastUS-Primary"
 az webapp config appsettings set -g EnvWestUSRG -n $backendapp2 --settings Region="WestUS-Secondary"
+```
