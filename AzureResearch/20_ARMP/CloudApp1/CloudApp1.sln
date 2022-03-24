@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CloudApp1", "CloudApp1\CloudApp1.deployproj", "{F2D72BE8-957C-44E7-8219-84F7DCAF24C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D72BE8-957C-44E7-8219-84F7DCAF24C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D72BE8-957C-44E7-8219-84F7DCAF24C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D72BE8-957C-44E7-8219-84F7DCAF24C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D72BE8-957C-44E7-8219-84F7DCAF24C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB7D823A-BDAB-4F64-BB78-237879F8E545}
+	EndGlobalSection
+EndGlobal
