@@ -22,9 +22,9 @@ namespace CosmosDemo.Web.Controllers
         // ADD THIS PART TO YOUR CODE
 
         // The Azure Cosmos DB endpoint for running this sample.
-        private static readonly string EndpointUri = "https://cosmosx123.documents.azure.com:443/";
+        private static readonly string EndpointUri = "https://{accountname}.documents.azure.com:443/";
         // The primary key for the Azure Cosmos account.
-        private static readonly string PrimaryKey = "6GPnqBPKjF7BKrZLysaRMKpW0QU4FPJiZFysfQv1WExJghtzXgk32nIsNwxIdyHJN1JVFzfvdbuNPpq84rvWXQ==";
+        private static readonly string PrimaryKey = "{key}";
 
         // The Cosmos client instance
         private CosmosClient cosmosClient;
@@ -36,7 +36,7 @@ namespace CosmosDemo.Web.Controllers
         private Container container;
 
         // The name of the database and container we will create
-        private string databaseId = "users";
+        private string databaseId = "usersdb";
         private string containerId = "users";
 
         public HomeController(ILogger<HomeController> logger)
