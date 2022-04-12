@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T11:54:14.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="jsYIb8dnFfVqufmisSAm" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T11:55:51.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="oNAtYPYBhmw6DtUpyA7d" version="17.2.1" type="github">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
     <mxGraphModel dx="2338" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,10 +32,10 @@
           <mxGeometry x="1208" y="209" width="70.13" height="66" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-12" value="UNLIMITED STORAGE SCALE?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="650" y="430" width="240" height="20" as="geometry" />
+          <mxGeometry x="640" y="189" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-13" value="AUTOMATIC TRIGGERING JOBS?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="90" width="250" height="20" as="geometry" />
+          <mxGeometry x="1102" y="109" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-15" value="&lt;b&gt;Permanent Unlimited Storage&lt;/b&gt;&lt;br&gt;Azure Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1450" y="290" width="65" height="52" as="geometry" />
@@ -52,8 +52,8 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-20" value="&lt;b&gt;Images&lt;/b&gt;&lt;br&gt;Azure CDN" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/CDN_Profiles.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="456" y="1240" width="68" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-21" value="OPTIMIZATIONS FOR IMAGES?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1030" width="240" height="20" as="geometry" />
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-21" value="OPTIMIZATIONS FOR VIDEOS/IMAGES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="371" y="1048" width="264" height="22" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-22" value="&lt;b&gt;YouTube Frontend&lt;/b&gt;&lt;br&gt;Static Web App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="140" y="770" width="50" height="40" as="geometry" />
@@ -160,11 +160,11 @@
             <mxPoint x="700" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-41" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-41" value="&lt;b&gt;Batch Handler&lt;/b&gt;&lt;br&gt;Azure Functions" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="960" y="290" width="68" height="60" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="HIGH PERFORMANCE COMPUTING?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="960" y="150" width="280" height="20" as="geometry" />
+          <mxGeometry x="1092" y="155" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-43" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
