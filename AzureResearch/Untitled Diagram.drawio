@@ -1,1 +1,269 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T11:50:44.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="uYyNg1HlBGZ7ekzwD580" version="17.2.1" type="github"><diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-12T11:54:14.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="jsYIb8dnFfVqufmisSAm" version="17.2.1" type="github">
+  <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
+    <mxGraphModel dx="2338" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-2" value="Content upload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-396" y="-12" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-3" value="Content viewing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-396" y="8" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-4" value="&lt;b&gt;Content Receiver&lt;/b&gt;&lt;br&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="419" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-5" value="&lt;b&gt;Content Receiver&lt;/b&gt;&lt;br&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="419" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-6" value="&lt;b&gt;Global Endpoint&lt;/b&gt;&lt;br&gt;Traffic Manager" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Traffic_Manager.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="180" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-7" value="Content Creator" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-302" y="270" width="19" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-9" value=".&lt;br style=&quot;font-size: 15px;&quot;&gt;.&lt;br style=&quot;font-size: 15px;&quot;&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="434" y="290" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-10" value="&lt;b&gt;Temporary Unlimited Storage&lt;/b&gt;&lt;br&gt;Azure Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="730" y="290" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-11" value="&lt;b&gt;Video Encoding&lt;/b&gt;&lt;br&gt;Azure Batch" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="209" width="70.13" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-12" value="UNLIMITED STORAGE SCALE?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="650" y="430" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-13" value="AUTOMATIC TRIGGERING JOBS?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="90" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-15" value="&lt;b&gt;Permanent Unlimited Storage&lt;/b&gt;&lt;br&gt;Azure Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="290" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-16" value="Content Viewer" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="774" width="19" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-17" value="&lt;b&gt;Thumbnail Processing&lt;/b&gt;&lt;br&gt;Azure Batch" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="346" width="70.13" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-19" value="&lt;b&gt;Videos&lt;/b&gt;&lt;br&gt;Azure CDN" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/CDN_Profiles.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="456" y="1100" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-20" value="&lt;b&gt;Images&lt;/b&gt;&lt;br&gt;Azure CDN" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/CDN_Profiles.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="456" y="1240" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-21" value="OPTIMIZATIONS FOR IMAGES?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1030" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-22" value="&lt;b&gt;YouTube Frontend&lt;/b&gt;&lt;br&gt;Static Web App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="140" y="770" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-23" value="&lt;b&gt;Metadata Service&lt;br&gt;&lt;/b&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="660" y="678" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-24" value="&lt;b&gt;Metadata Service&lt;/b&gt;&lt;br&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="660" y="868" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-25" value=".&lt;br style=&quot;font-size: 15px;&quot;&gt;.&lt;br style=&quot;font-size: 15px;&quot;&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="675" y="788" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-26" value="&lt;b&gt;Databse&lt;/b&gt;&lt;br&gt;Cosmos DB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="550" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-27" value="&lt;b&gt;Metadata Service Endpoint&lt;/b&gt;&lt;br&gt;Traffic Manager" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Traffic_Manager.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="415" y="773" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-28" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="390" as="sourcePoint" />
+            <mxPoint x="540" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1470" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-29" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="390" as="sourcePoint" />
+            <mxPoint x="540" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-30" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="800" as="sourcePoint" />
+            <mxPoint x="100" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-31" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212" y="798.29" as="sourcePoint" />
+            <mxPoint x="392" y="798.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-32" value="&lt;b&gt;Creator Studio Frontend&lt;/b&gt;&lt;br&gt;Static Web App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="275" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-33" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-249" y="300" as="sourcePoint" />
+            <mxPoint x="-69" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-34" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="850" as="sourcePoint" />
+            <mxPoint x="440" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-35" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="850" as="sourcePoint" />
+            <mxPoint x="440" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-36" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="300" as="sourcePoint" />
+            <mxPoint x="160" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-37" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="260" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-39" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="368.57" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-40" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="320" as="sourcePoint" />
+            <mxPoint x="700" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-41" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="960" y="290" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="HIGH PERFORMANCE COMPUTING?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="960" y="150" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-43" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="319.41" as="sourcePoint" />
+            <mxPoint x="940" y="319.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-44" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="320.00000000000006" as="sourcePoint" />
+            <mxPoint x="1170" y="320.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-45" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="320" as="sourcePoint" />
+            <mxPoint x="1420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-46" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="470" as="sourcePoint" />
+            <mxPoint x="1010" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-48" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="760" as="sourcePoint" />
+            <mxPoint x="640" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-49" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="870" as="sourcePoint" />
+            <mxPoint x="640" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-50" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="820" as="sourcePoint" />
+            <mxPoint x="1060" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-51" value="Recommendation Module" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#FFFFFF;labelBackgroundColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="710" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-52" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="590" as="sourcePoint" />
+            <mxPoint x="1260" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-53" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="850" as="sourcePoint" />
+            <mxPoint x="1260" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-54" value="Subtitle Generation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#FFFFFF;labelBackgroundColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="930" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-55" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="390" as="sourcePoint" />
+            <mxPoint x="1350" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-1" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="870" as="sourcePoint" />
+            <mxPoint x="1170" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="870" />
+              <mxPoint x="900" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
