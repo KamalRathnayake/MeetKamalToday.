@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T13:40:58.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="bfE25bR9xWjEq1CAPKIy" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T13:44:46.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="cRyBuxGLQ8UXpHFCIAnf" version="17.2.1" type="github">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
-    <mxGraphModel dx="3632" dy="1279" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5585" dy="1685" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,8 +34,8 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-12" value="UNLIMITED STORAGE SCALE?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="640" y="189" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-13" value="AUTOMATIC TRIGGERING JOBS?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="878" y="243" width="250" height="20" as="geometry" />
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-13" value="AUTOMATIC TRIGGERING JOBS?&lt;br&gt;WHY NOT AN EVENT GRID?" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="894" y="214" width="223" height="40" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-15" value="&lt;b&gt;Permanent Unlimited Storage&lt;/b&gt;&lt;br&gt;Azure Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1450" y="290" width="65" height="52" as="geometry" />
@@ -163,7 +163,7 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-41" value="&lt;b&gt;Batch Handler&lt;/b&gt;&lt;br&gt;Azure Functions" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="960" y="290" width="68" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="HIGH PERFORMANCE COMPUTING?&lt;br&gt;COULD BE SCALE SETS AS WELL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="HIGH PERFORMANCE COMPUTING?&lt;br&gt;COULD BE SCALE SETS AS WELL" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1109" y="95" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-43" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
@@ -285,31 +285,61 @@
           <mxGeometry x="1716" y="564" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-15" value="&lt;h1&gt;Features&lt;/h1&gt;&lt;div&gt;Uploading Videos&lt;/div&gt;&lt;div&gt;Viewing Videos&lt;/div&gt;&lt;div&gt;Storing Metadata&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;Video Suggestions&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;Payment&lt;/strike&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-1976" y="37" width="190" height="233" as="geometry" />
+          <mxGeometry x="-2899" y="58" width="190" height="233" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-17" value="&lt;h1&gt;Quality Attributes&lt;/h1&gt;&lt;div&gt;Scalability&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-1751" y="42" width="313" height="233" as="geometry" />
+          <mxGeometry x="-2674" y="66" width="313" height="233" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-18" value="&lt;b&gt;Content Creator&lt;/b&gt;&lt;br&gt;User" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" vertex="1" parent="1">
-          <mxGeometry x="-1828" y="412" width="19" height="50" as="geometry" />
+          <mxGeometry x="-2751" y="433" width="19" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-20" value="&lt;b&gt;YouTube Studio Frontend&lt;/b&gt;&lt;br&gt;Static Web App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1548" y="412" width="54" height="43.2" as="geometry" />
+          <mxGeometry x="-2471" y="433" width="54" height="43.2" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-21" value="&lt;b&gt;Video Upload API&lt;/b&gt;&lt;br&gt;East US - App Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1088" y="258" width="64" height="64" as="geometry" />
+          <mxGeometry x="-2011" y="279" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-22" value="&lt;b&gt;Video Upload API&lt;/b&gt;&lt;br&gt;South India - App Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1088" y="490" width="64" height="64" as="geometry" />
+          <mxGeometry x="-2011" y="555" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-23" value=".&lt;br&gt;.&lt;br&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1063" y="397.2" width="14" height="58" as="geometry" />
+          <mxGeometry x="-1986" y="418.2" width="14" height="58" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-24" value="&lt;b&gt;Upload Endpoint&lt;br&gt;&lt;/b&gt;Traffic Manager" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Traffic_Manager_Profiles.svg;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1306" y="397" width="68" height="68" as="geometry" />
+          <mxGeometry x="-2260" y="424" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="M9Uj5QpDTQHWec1s0iKj-25" value="WHY DO WE HAVE TWO TRAFFIC MANAGERS?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-76" y="651" width="348" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-26" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2224" y="410" as="sourcePoint" />
+            <mxPoint x="-2028" y="314" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2229" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-27" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2227" y="544" as="sourcePoint" />
+            <mxPoint x="-2049" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2221" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-28" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2371" y="460" as="sourcePoint" />
+            <mxPoint x="-2288" y="469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-29" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1726" y="398" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-30" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Event_Grid.svg;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1530" y="398" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
