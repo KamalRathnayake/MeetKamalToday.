@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T11:58:11.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Qqn8lbZ4A2PlpzgbqoSv" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T12:00:28.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="RWJcRxaUQ-1rmplZfZv3" version="17.2.1" type="github">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
-    <mxGraphModel dx="2338" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2785" dy="1685" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,8 +163,8 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-41" value="&lt;b&gt;Batch Handler&lt;/b&gt;&lt;br&gt;Azure Functions" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="960" y="290" width="68" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="HIGH PERFORMANCE COMPUTING?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="1094" y="105" width="280" height="20" as="geometry" />
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="HIGH PERFORMANCE COMPUTING?&lt;br&gt;COULD BE SCALE SETS AS WELL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1109" y="95" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-43" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -263,11 +263,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="M9Uj5QpDTQHWec1s0iKj-2" value="COULD BE SCALE SETS AS WELL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="142" width="252" height="22" as="geometry" />
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-4" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1244" y="456" as="sourcePoint" />
+            <mxPoint x="1100" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1244" y="565" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="M9Uj5QpDTQHWec1s0iKj-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="916" y="477" width="40" height="20" as="geometry" />
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-6" value="HOW DOES RENDERING COMPLETES UPDATED?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+          <mxGeometry x="901" y="493" width="330" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
