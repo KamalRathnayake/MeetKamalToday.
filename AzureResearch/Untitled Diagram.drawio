@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T11:55:51.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="oNAtYPYBhmw6DtUpyA7d" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T11:58:11.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Qqn8lbZ4A2PlpzgbqoSv" version="17.2.1" type="github">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
     <mxGraphModel dx="2338" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-6" value="&lt;b&gt;Global Endpoint&lt;/b&gt;&lt;br&gt;Traffic Manager" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Traffic_Manager.svg;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="180" y="270" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-7" value="Content Creator" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-7" value="&lt;b&gt;Content Creator&lt;/b&gt;&lt;br&gt;User" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="-302" y="270" width="19" height="50" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-9" value=".&lt;br style=&quot;font-size: 15px;&quot;&gt;.&lt;br style=&quot;font-size: 15px;&quot;&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
@@ -35,12 +35,12 @@
           <mxGeometry x="640" y="189" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-13" value="AUTOMATIC TRIGGERING JOBS?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="1102" y="109" width="250" height="20" as="geometry" />
+          <mxGeometry x="878" y="243" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-15" value="&lt;b&gt;Permanent Unlimited Storage&lt;/b&gt;&lt;br&gt;Azure Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1450" y="290" width="65" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-16" value="Content Viewer" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-16" value="&lt;b&gt;Content Viewer&lt;/b&gt;&lt;br&gt;User" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="-140" y="774" width="19" height="50" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-17" value="&lt;b&gt;Thumbnail Processing&lt;/b&gt;&lt;br&gt;Azure Batch" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
@@ -164,7 +164,7 @@
           <mxGeometry x="960" y="290" width="68" height="60" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="HIGH PERFORMANCE COMPUTING?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="1092" y="155" width="280" height="20" as="geometry" />
+          <mxGeometry x="1094" y="105" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-43" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -223,7 +223,7 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-51" value="Recommendation Module" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#FFFFFF;labelBackgroundColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1180" y="710" width="160" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-52" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-52" value="" style="endArrow=none;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;startArrow=block;startFill=1;endFill=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1100" y="590" as="sourcePoint" />
             <mxPoint x="1260" y="700" as="targetPoint" />
@@ -262,6 +262,12 @@
               <mxPoint x="900" y="980" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-2" value="COULD BE SCALE SETS AS WELL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="142" width="252" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="916" y="477" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
