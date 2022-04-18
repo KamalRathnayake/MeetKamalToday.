@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T23:47:00.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="eybqJzBxOlqZWz2Zym3M" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-18T23:48:28.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="yrpGYxNmXrOg8voYoYqJ" version="17.4.5" type="github" pages="2">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
-    <mxGraphModel dx="6146" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5262" dy="1457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,10 +10,10 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-3" value="Content viewing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="-396" y="8" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-4" value="&lt;b&gt;Content Receiver&lt;/b&gt;&lt;br&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-4" value="&lt;b&gt;Creator Endpoints&lt;br&gt;&lt;/b&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="419" y="180" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-5" value="&lt;b&gt;Content Receiver&lt;/b&gt;&lt;br&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-5" value="&lt;b&gt;Creator Endpoints&lt;/b&gt;&lt;br&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="419" y="370" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-6" value="&lt;b&gt;Global Endpoint&lt;/b&gt;&lt;br&gt;Traffic Manager" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Traffic_Manager.svg;fontFamily=segoe ui;" parent="1" vertex="1">
@@ -58,10 +58,10 @@
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-22" value="&lt;b&gt;YouTube Frontend&lt;/b&gt;&lt;br&gt;Static Web App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="140" y="770" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-23" value="&lt;b&gt;Metadata Service&lt;br&gt;&lt;/b&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-23" value="&lt;b&gt;YouTube API&lt;br&gt;&lt;/b&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="660" y="678" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-24" value="&lt;b&gt;Metadata Service&lt;/b&gt;&lt;br&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-24" value="&lt;b&gt;YouTube API&lt;br&gt;&lt;/b&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="660" y="868" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="02HTZPVNtvfM2W8bV9Oi-25" value=".&lt;br style=&quot;font-size: 15px;&quot;&gt;.&lt;br style=&quot;font-size: 15px;&quot;&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
