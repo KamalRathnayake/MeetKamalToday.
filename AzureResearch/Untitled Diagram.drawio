@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T02:10:05.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7ba-36cfIQvFV7GT0VRj" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-21T02:11:01.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DB_cdp4d_rk2T-pNhcKF" version="17.4.5" type="github" pages="2">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
     <mxGraphModel dx="3793" dy="1369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -229,28 +229,6 @@
             <mxPoint x="1260" y="810" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1260" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-54" value="Subtitle Generation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#FFFFFF;labelBackgroundColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="950" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="02HTZPVNtvfM2W8bV9Oi-55" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1450" y="390" as="sourcePoint" />
-            <mxPoint x="1350" y="980" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1450" y="980" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="M9Uj5QpDTQHWec1s0iKj-1" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="870" as="sourcePoint" />
-            <mxPoint x="1170" y="980" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="900" y="870" />
-              <mxPoint x="900" y="980" />
             </Array>
           </mxGeometry>
         </mxCell>
