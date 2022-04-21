@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T02:21:10.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="X_VtD6Cc_4sSn2VDc04o" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-21T02:22:39.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="PnDGWUMuC2Uw7AK7DkE4" version="17.4.5" type="github" pages="2">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
-    <mxGraphModel dx="4578" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3250" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -336,6 +336,9 @@
         </mxCell>
         <mxCell id="mqTWBIfrStJISPdkafVv-15" value="Geographic Routing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
           <mxGeometry x="40" y="232" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-16" value="HLS, Smooth Streaming, Adobe HDS, DASH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1420" width="300" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
