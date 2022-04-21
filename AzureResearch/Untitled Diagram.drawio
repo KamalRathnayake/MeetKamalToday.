@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T00:33:51.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="u2vZGmwi13Ld_iMOMI6e" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-21T00:34:51.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="G_togs2UnPCJSa-EFp4d" version="17.4.5" type="github" pages="2">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
     <mxGraphModel dx="5172" dy="2114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -312,7 +312,7 @@
           <mxGeometry x="856" y="295" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mqTWBIfrStJISPdkafVv-1" value="&lt;b&gt;Upload Notifier&lt;/b&gt;&lt;br&gt;Notification Hub" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.notification_hub;pointerEvents=1;fontFamily=segoe ui;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="170" width="50" height="50" as="geometry" />
+          <mxGeometry x="1570" y="190" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mqTWBIfrStJISPdkafVv-4" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -337,6 +337,12 @@
         </mxCell>
         <mxCell id="mqTWBIfrStJISPdkafVv-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;SQL vs Cosmos&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Planet scale&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Configurable consistency&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed partitioning&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Different types of APIs Graphs, Documents etc&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
           <mxGeometry x="739" y="610" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-10" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="220" as="sourcePoint" />
+            <mxPoint x="1550" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
