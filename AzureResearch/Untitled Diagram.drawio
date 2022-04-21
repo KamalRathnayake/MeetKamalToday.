@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T00:34:51.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="G_togs2UnPCJSa-EFp4d" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-21T00:40:55.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="xKcS2UJVutNDN5GKvG1U" version="17.4.5" type="github" pages="2">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
     <mxGraphModel dx="5172" dy="2114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -343,6 +343,9 @@
             <mxPoint x="1330" y="220" as="sourcePoint" />
             <mxPoint x="1550" y="220" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;Why not an App Service?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed global distribution&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;You don&#39;t specify a region when you build this&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="30" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
