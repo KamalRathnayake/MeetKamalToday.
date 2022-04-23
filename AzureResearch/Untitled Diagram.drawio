@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T04:08:54.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="iCNvmSAUSoIgiUdzoldl" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-23T14:53:02.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="4fmxw3nregpQ_wGia9OZ" version="17.4.6" type="github" pages="2">
   <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
-    <mxGraphModel dx="3597" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4103" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -251,7 +251,7 @@
           <mxGeometry x="-1150" y="22" width="313" height="233" as="geometry" />
         </mxCell>
         <mxCell id="KciWGx90yfuvQnI4cfco-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;strokeWidth=2;dashed=1;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
-          <mxGeometry x="880" y="170" width="450" height="323.5" as="geometry" />
+          <mxGeometry x="1380" y="-163.5" width="450" height="323.5" as="geometry" />
         </mxCell>
         <mxCell id="KciWGx90yfuvQnI4cfco-5" value="Search Engine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#FFFFFF;labelBackgroundColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1180" y="722" width="160" height="66" as="geometry" />
@@ -286,13 +286,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JVsLbvBy6ZKc-_5yz9Dd-1" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Event_Grid.svg;fontFamily=config rounded;imageBackground=default;" vertex="1" parent="1">
+        <mxCell id="JVsLbvBy6ZKc-_5yz9Dd-1" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Event_Grid.svg;fontFamily=config rounded;imageBackground=default;" parent="1" vertex="1">
           <mxGeometry x="856" y="295" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-1" value="&lt;b&gt;Upload Notifier&lt;/b&gt;&lt;br&gt;Notification Hub" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.notification_hub;pointerEvents=1;fontFamily=segoe ui;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-1" value="&lt;b&gt;Upload Notifier&lt;/b&gt;&lt;br&gt;Notification Hub" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.notification_hub;pointerEvents=1;fontFamily=segoe ui;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1570" y="190" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-4" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-4" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="394.5" as="sourcePoint" />
             <mxPoint x="1190" y="430" as="targetPoint" />
@@ -301,44 +301,50 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-5" value="&lt;div style=&quot;direction: ltr ; border-width: 100%&quot;&gt;&lt;div style=&quot;direction: ltr ; margin-top: 0in ; margin-left: 0in ; width: 2.9826in&quot;&gt;&lt;div style=&quot;direction: ltr ; margin-top: 0in ; margin-left: 0in ; width: 2.9826in&quot;&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;calibri&amp;#34; ; font-size: 11.0pt&quot;&gt;&lt;b&gt;Quic protocol,&lt;br&gt;&lt;/b&gt;youtube, facebook, uber&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-5" value="&lt;div style=&quot;direction: ltr ; border-width: 100%&quot;&gt;&lt;div style=&quot;direction: ltr ; margin-top: 0in ; margin-left: 0in ; width: 2.9826in&quot;&gt;&lt;div style=&quot;direction: ltr ; margin-top: 0in ; margin-left: 0in ; width: 2.9826in&quot;&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;calibri&amp;#34; ; font-size: 11.0pt&quot;&gt;&lt;b&gt;Quic protocol,&lt;br&gt;&lt;/b&gt;youtube, facebook, uber&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="3" y="1380" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-6" value="&lt;b&gt;DASH client, &lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;the client uses a bit rate adaptation (ABR) algorithm[1] to automatically select the segment with the highest bit rate possible&lt;br style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;that can be downloaded in time for playback without causing stalls or re-buffering events in the playback.[2] &lt;br style=&quot;font-size: 15px&quot;&gt;The current MPEG-DASH reference client dash.js Thus, an MPEG-DASH client can seamlessly adapt to changing &lt;br style=&quot;font-size: 15px&quot;&gt;network conditions and provide high quality playback with few stalls or re-buffering events." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-6" value="&lt;b&gt;DASH client, &lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;the client uses a bit rate adaptation (ABR) algorithm[1] to automatically select the segment with the highest bit rate possible&lt;br style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;that can be downloaded in time for playback without causing stalls or re-buffering events in the playback.[2] &lt;br style=&quot;font-size: 15px&quot;&gt;The current MPEG-DASH reference client dash.js Thus, an MPEG-DASH client can seamlessly adapt to changing &lt;br style=&quot;font-size: 15px&quot;&gt;network conditions and provide high quality playback with few stalls or re-buffering events." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="-910" y="1070" width="830" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-7" value="&lt;div&gt;&lt;b&gt;Video encoding application&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FFMPEG with GPU acceleration&lt;/div&gt;&lt;div&gt;Encoding codecs and resolutions when processing the batch&lt;/div&gt;&lt;div&gt;Chunk based video processing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-7" value="&lt;div&gt;&lt;b&gt;Video encoding application&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FFMPEG with GPU acceleration&lt;/div&gt;&lt;div&gt;Encoding codecs and resolutions when processing the batch&lt;/div&gt;&lt;div&gt;Chunk based video processing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="880" y="-10" width="410" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;VMs&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;N-Series VMS with high powered GPUs&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;VMs&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;N-Series VMS with high powered GPUs&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="875" y="-80" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;SQL vs Cosmos&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Planet scale&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Configurable consistency&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed partitioning&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Polyglot - Different types of APIs Graphs, Documents etc&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;SQL vs Cosmos&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Planet scale&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Configurable consistency&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed partitioning&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Polyglot - Different types of APIs Graphs, Documents etc&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="704" y="610" width="390" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-10" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-10" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1330" y="220" as="sourcePoint" />
             <mxPoint x="1550" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;Why not an App Service?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed global distribution&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;You don&#39;t specify a region when you build this&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;Why not an App Service?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed global distribution&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;You don&#39;t specify a region when you build this&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="-200" y="30" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Web Pub Sub&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;SignalR&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Web Pub Sub&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;SignalR&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1660" y="190" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-13" value="Subtitle Generation | Video Analysis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-13" value="Subtitle Generation | Video Analysis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="1075" y="140" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-14" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;br style=&quot;color: rgb(138, 180, 248); font-family: arial, sans-serif; font-size: small; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(32, 33, 36);&quot;&gt;&lt;h3 class=&quot;LC20lb MBeuO DKV0Md&quot; style=&quot;font-weight: normal; margin: 0px 0px 3px; padding: 5px 0px 0px; font-size: 20px; line-height: 1.3; font-family: arial, sans-serif; display: inline-block; text-decoration: underline; color: rgb(138, 180, 248); font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(32, 33, 36);&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-14" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;br style=&quot;color: rgb(138, 180, 248); font-family: arial, sans-serif; font-size: small; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(32, 33, 36);&quot;&gt;&lt;h3 class=&quot;LC20lb MBeuO DKV0Md&quot; style=&quot;font-weight: normal; margin: 0px 0px 3px; padding: 5px 0px 0px; font-size: 20px; line-height: 1.3; font-family: arial, sans-serif; display: inline-block; text-decoration: underline; color: rgb(138, 180, 248); font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(32, 33, 36);&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="-890" y="1150" width="380" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-15" value="Geographic Routing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-15" value="Geographic Routing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="40" y="232" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mqTWBIfrStJISPdkafVv-16" value="HLS, Smooth Streaming, Adobe HDS, DASH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" vertex="1" parent="1">
+        <mxCell id="mqTWBIfrStJISPdkafVv-16" value="HLS, Smooth Streaming, Adobe HDS, DASH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
           <mxGeometry x="330" y="1420" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DZh2xwkCEqa06Z2gbisy-1" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="310" as="sourcePoint" />
+            <mxPoint x="170" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
