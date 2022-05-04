@@ -1,0 +1,432 @@
+<mxfile host="app.diagrams.net" modified="2022-04-23T14:53:02.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="4fmxw3nregpQ_wGia9OZ" version="17.4.6" type="github" pages="2">
+  <diagram id="0lWnthPlhHTYpIbOJzv-" name="Page-1">
+    <mxGraphModel dx="4103" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-4" value="&lt;b&gt;YouTube Studio Backend&lt;br&gt;&lt;/b&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="419" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-5" value="&lt;b&gt;YouTube Studio Backend&lt;br&gt;&lt;/b&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="419" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-6" value="&lt;b&gt;Studio LB&lt;/b&gt;&lt;br&gt;Traffic Manager" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Traffic_Manager.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="180" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-7" value="&lt;b&gt;Content Creator&lt;/b&gt;&lt;br&gt;User" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-302" y="270" width="19" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-9" value=".&lt;br style=&quot;font-size: 15px;&quot;&gt;.&lt;br style=&quot;font-size: 15px;&quot;&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="434" y="290" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-10" value="&lt;b&gt;Temporary Storage&lt;/b&gt;&lt;br&gt;Azure Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="730" y="290" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-11" value="&lt;b&gt;Video Encoding&lt;/b&gt;&lt;br&gt;Azure Batch" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="209" width="70.13" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-12" value="App Service is Auto Scaled" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="349" y="100" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-15" value="&lt;b&gt;Permanent Storage&lt;/b&gt;&lt;br&gt;Azure Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="290" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-16" value="&lt;b&gt;Content Viewer&lt;/b&gt;&lt;br&gt;User" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#FFFFFF;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-302" y="773" width="19" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-17" value="&lt;b&gt;Thumbnail Processing&lt;/b&gt;&lt;br&gt;Azure Batch" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Batch_Accounts.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="362" width="70.13" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-19" value="&lt;b&gt;Videos&lt;/b&gt;&lt;br&gt;Azure CDN Provider 1" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/CDN_Profiles.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="297" y="1040" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-20" value="&lt;b&gt;Images&lt;/b&gt;&lt;br&gt;Azure CDN" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/CDN_Profiles.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="297" y="1320" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-21" value="OPTIMIZATIONS FOR VIDEOS/IMAGES&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;Adaptive image compression (Azure CDN from Akamai only)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Some devices, especially mobile ones, experience slower network speeds from time to time.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In these scenarios,&amp;nbsp;&lt;/div&gt;&lt;div&gt;it is more beneficial for the user to receive smaller images in their webpage&amp;nbsp;&lt;/div&gt;&lt;div&gt;more quickly rather than waiting a long time for full resolution images.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This feature automatically monitors network quality,&amp;nbsp;&lt;/div&gt;&lt;div&gt;and employs standard JPEG compression methods when network speeds&amp;nbsp;&lt;/div&gt;&lt;div&gt;are slower to improve delivery time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Partial cache sharing&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Partial cache sharing allows the CDN to serve partially cached content to new requests.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For example, if the first request to the CDN results in a cache miss, the request is sent to the origin.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Although this incomplete content is loaded into the CDN cache, other requests to the CDN can start getting this data.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="5" y="1470" width="790" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-22" value="&lt;b&gt;YouTube Frontend&lt;/b&gt;&lt;br&gt;Static Web App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="770" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-23" value="&lt;b&gt;YouTube API&lt;br&gt;&lt;/b&gt;East US - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="660" y="678" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-24" value="&lt;b&gt;YouTube API&lt;br&gt;&lt;/b&gt;South India - App Service" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="660" y="868" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-25" value=".&lt;br style=&quot;font-size: 15px;&quot;&gt;.&lt;br style=&quot;font-size: 15px;&quot;&gt;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="675" y="788" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-26" value="&lt;b&gt;Databse&lt;/b&gt;&lt;br&gt;Cosmos DB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="550" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-27" value="&lt;b&gt;YouTube API LB&lt;/b&gt;&lt;br&gt;Traffic Manager" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Traffic_Manager.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="415" y="773" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-28" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="390" as="sourcePoint" />
+            <mxPoint x="390" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1470" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-29" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="390" as="sourcePoint" />
+            <mxPoint x="380" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-30" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="800" as="sourcePoint" />
+            <mxPoint x="-70" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-31" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="800" as="sourcePoint" />
+            <mxPoint x="392" y="798.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-32" value="&lt;b&gt;Creator Studio Frontend&lt;/b&gt;&lt;br&gt;Static Web App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="275" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-33" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-249" y="300" as="sourcePoint" />
+            <mxPoint x="-69" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-34" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="850" as="sourcePoint" />
+            <mxPoint x="70" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-35" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="850" as="sourcePoint" />
+            <mxPoint x="290" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-36" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="300" as="sourcePoint" />
+            <mxPoint x="160" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-37" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="260" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-39" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="368.57" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-40" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="320" as="sourcePoint" />
+            <mxPoint x="700" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-41" value="&lt;b&gt;Batch Handler&lt;/b&gt;&lt;br&gt;Azure Durable Function" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="960" y="290" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-42" value="&lt;b&gt;Azure Batch vs Scale Sets&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;Batch&lt;/b&gt;&lt;br&gt;PaaS&lt;br&gt;Cloud native job scheduling - A platform built for long running high compute workloads&lt;br&gt;&lt;br&gt;&lt;b&gt;VMSS&lt;/b&gt;&lt;br&gt;IaaS&lt;br&gt;Commonly used for web workloads with a load balancer infront&lt;br&gt;Job scheduling, notifications you will have to manage yourself" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="880" y="-290" width="600" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-43" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="319.41" as="sourcePoint" />
+            <mxPoint x="940" y="319.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-44" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="275.00000000000006" as="sourcePoint" />
+            <mxPoint x="1190" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-45" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="320" as="sourcePoint" />
+            <mxPoint x="1420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-46" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="470" as="sourcePoint" />
+            <mxPoint x="1010" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-48" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="760" as="sourcePoint" />
+            <mxPoint x="640" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-49" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="870" as="sourcePoint" />
+            <mxPoint x="640" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-50" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="820" as="sourcePoint" />
+            <mxPoint x="1060" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-52" value="" style="endArrow=none;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;startArrow=block;startFill=1;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="590" as="sourcePoint" />
+            <mxPoint x="1260" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02HTZPVNtvfM2W8bV9Oi-53" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="850" as="sourcePoint" />
+            <mxPoint x="1260" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-4" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1244" y="500" as="sourcePoint" />
+            <mxPoint x="1100" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1244" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-8" value="&lt;b&gt;Insights&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Insights.svg;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="340" y="590" width="32" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-15" value="&lt;h1 style=&quot;font-size: 36px&quot;&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;High Level Overview&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul type=&quot;square&quot; style=&quot;font-size: 25px ; direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;b&gt;Content Creators&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;b&gt;Viewers&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;Advertisers&lt;/li&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul type=&quot;square&quot; style=&quot;direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Video uploading and encoding&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul type=&quot;square&quot; style=&quot;direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Video delivery&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul type=&quot;square&quot; style=&quot;direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Storing metadata&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul type=&quot;square&quot; style=&quot;direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;span&gt;Recommendations and Search&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul type=&quot;square&quot; style=&quot;direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;span&gt;Payments&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul type=&quot;square&quot; style=&quot;direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;&lt;li style=&quot;margin-top: 0px ; margin-bottom: 0px ; vertical-align: middle&quot;&gt;&lt;span&gt;Analyzing the videos for copy&lt;/span&gt;rights, adult content and subtitle generation&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 24px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 24px&quot;&gt;&lt;/p&gt;&lt;ul type=&quot;square&quot; style=&quot;font-size: 24px ; direction: ltr ; unicode-bidi: embed ; margin-top: 0in ; margin-bottom: 0in&quot;&gt;     &lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=24;fontColor=#FFFFFF;fontFamily=config rounded;" parent="1" vertex="1">
+          <mxGeometry x="-1770" y="22" width="580" height="598" as="geometry" />
+        </mxCell>
+        <mxCell id="M9Uj5QpDTQHWec1s0iKj-17" value="&lt;h1 style=&quot;font-size: 36px&quot;&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Quality Attributes&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Scalability&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;High Availability&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 35px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#FFFFFF;fontFamily=config rounded;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="22" width="313" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;strokeWidth=2;dashed=1;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="-163.5" width="450" height="323.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-5" value="Search Engine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#FFFFFF;labelBackgroundColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="722" width="160" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-6" value="MAYBE -&amp;nbsp; ELASTIC CLOUD, AZURE SEARCH" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1137" y="701" width="261" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-7" value="Video Processing Subsystem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontFamily=segoe ui;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="875" y="140" width="184" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-8" value="&lt;b&gt;Load Balancer&lt;/b&gt;&lt;br&gt;Traffic Manager" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Traffic_Manager.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-10" value="&lt;b&gt;Videos&lt;/b&gt;&lt;br&gt;Azure CDN Provider 2" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/CDN_Profiles.svg;fillColor=#FFFFFF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="297" y="1150" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-11" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="1090" as="sourcePoint" />
+            <mxPoint x="270" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KciWGx90yfuvQnI4cfco-12" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="1190" as="sourcePoint" />
+            <mxPoint x="270" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JVsLbvBy6ZKc-_5yz9Dd-1" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Event_Grid.svg;fontFamily=config rounded;imageBackground=default;" parent="1" vertex="1">
+          <mxGeometry x="856" y="295" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-1" value="&lt;b&gt;Upload Notifier&lt;/b&gt;&lt;br&gt;Notification Hub" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.notification_hub;pointerEvents=1;fontFamily=segoe ui;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-4" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="394.5" as="sourcePoint" />
+            <mxPoint x="1190" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-5" value="&lt;div style=&quot;direction: ltr ; border-width: 100%&quot;&gt;&lt;div style=&quot;direction: ltr ; margin-top: 0in ; margin-left: 0in ; width: 2.9826in&quot;&gt;&lt;div style=&quot;direction: ltr ; margin-top: 0in ; margin-left: 0in ; width: 2.9826in&quot;&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;calibri&amp;#34; ; font-size: 11.0pt&quot;&gt;&lt;b&gt;Quic protocol,&lt;br&gt;&lt;/b&gt;youtube, facebook, uber&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="3" y="1380" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-6" value="&lt;b&gt;DASH client, &lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;the client uses a bit rate adaptation (ABR) algorithm[1] to automatically select the segment with the highest bit rate possible&lt;br style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;that can be downloaded in time for playback without causing stalls or re-buffering events in the playback.[2] &lt;br style=&quot;font-size: 15px&quot;&gt;The current MPEG-DASH reference client dash.js Thus, an MPEG-DASH client can seamlessly adapt to changing &lt;br style=&quot;font-size: 15px&quot;&gt;network conditions and provide high quality playback with few stalls or re-buffering events." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-910" y="1070" width="830" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-7" value="&lt;div&gt;&lt;b&gt;Video encoding application&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FFMPEG with GPU acceleration&lt;/div&gt;&lt;div&gt;Encoding codecs and resolutions when processing the batch&lt;/div&gt;&lt;div&gt;Chunk based video processing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="880" y="-10" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;VMs&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;N-Series VMS with high powered GPUs&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="875" y="-80" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;SQL vs Cosmos&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Planet scale&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Configurable consistency&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed partitioning&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Polyglot - Different types of APIs Graphs, Documents etc&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="704" y="610" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-10" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="220" as="sourcePoint" />
+            <mxPoint x="1550" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;Why not an App Service?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Managed global distribution&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;You don&#39;t specify a region when you build this&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="30" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Web Pub Sub&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;SignalR&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-13" value="Subtitle Generation | Video Analysis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="140" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-14" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;br style=&quot;color: rgb(138, 180, 248); font-family: arial, sans-serif; font-size: small; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(32, 33, 36);&quot;&gt;&lt;h3 class=&quot;LC20lb MBeuO DKV0Md&quot; style=&quot;font-weight: normal; margin: 0px 0px 3px; padding: 5px 0px 0px; font-size: 20px; line-height: 1.3; font-family: arial, sans-serif; display: inline-block; text-decoration: underline; color: rgb(138, 180, 248); font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(32, 33, 36);&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-890" y="1150" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-15" value="Geographic Routing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="40" y="232" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mqTWBIfrStJISPdkafVv-16" value="HLS, Smooth Streaming, Adobe HDS, DASH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="330" y="1420" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DZh2xwkCEqa06Z2gbisy-1" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;strokeColor=#FFFFFF;strokeWidth=2;arcSize=20;fontFamily=segoe ui;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="310" as="sourcePoint" />
+            <mxPoint x="170" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="48RjRMflkLJGYm4Pb-5G" name="Page-2">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-1" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.user;" parent="1" vertex="1">
+          <mxGeometry x="110" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-2" value="Starting Endpoint" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="360" y="150" width="56.66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-3" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Event_Grid_Topics.svg;" parent="1" vertex="1">
+          <mxGeometry x="570" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-4" value="Invoker 1 - East US" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="810" y="40" width="56.66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="40" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-6" value="Invoker 2 - West US" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="810" y="180" width="56.66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-7" value="Invoker N - South East Asia" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
+          <mxGeometry x="810" y="330" width="56.66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-8" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="180" as="sourcePoint" />
+            <mxPoint x="320" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-9" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="180" as="sourcePoint" />
+            <mxPoint x="550" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-10" value="" style="endArrow=block;html=1;strokeWidth=2;endFill=1;curved=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="180" as="sourcePoint" />
+            <mxPoint x="800" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-11" value="" style="endArrow=block;html=1;strokeWidth=2;endFill=1;curved=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="70" as="sourcePoint" />
+            <mxPoint x="880" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-12" value="" style="endArrow=block;html=1;strokeWidth=2;endFill=1;curved=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="70" as="sourcePoint" />
+            <mxPoint x="870" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-13" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;endFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="70" as="sourcePoint" />
+            <mxPoint x="1090" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-14" value="Id, CorrelationId,&amp;nbsp; SourceRegion, DestinationRegion, SourceTimeStamp, DestinationTimestamp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="55" width="520" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2uv_n8IthiQVlhHkDbJj-15" value="CorrelationId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="348.33" y="104" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
