@@ -229,6 +229,6 @@ $grp = 'ContainerFromCLIRG'
 $loc = 'southeastasia'
 $appname = 'sampleff20210917'
 
-az group create --name $grp --location $loc --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $loc 
 az container create -g $grp --name $appname --image mcr.microsoft.com/azuredocs/aci-helloworld:latest --ports 80 443 --cpu 1 --memory 1
 ```

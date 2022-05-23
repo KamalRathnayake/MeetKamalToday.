@@ -6,7 +6,7 @@ $sbNamespaceName = "kamalsnamespace"
 $sbQueueName = "the-queue"
 
 # CREATING RESOURCE GROUP
-az group create --name $grp --location $loc --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $loc 
 
 # CREATING FUNCTION APP
 az storage account create --name $storageAccountName --resource-group $grp

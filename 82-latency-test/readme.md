@@ -1,8 +1,9 @@
 # Setting Up
 # -> az provider register --namespace Microsoft.EventGrid
 # -> az provider show --namespace Microsoft.EventGrid --query "registrationState"
-$id = "31242"
-$subscription = "890342c8-3d37-47d8-a8c9-0cb7cbcd23cf"
+$id = "31243"
+# $subscription = "890342c8-3d37-47d8-a8c9-0cb7cbcd23cf"
+$subscription = "b9efc495-e78a-4681-a691-460cfe70a5be"
 
 $loc = "eastus"
 $grp = "LatencyDemo$id"
@@ -11,10 +12,10 @@ $eventreceiver = "receivername$id"
 $cache = "cachestore$id"
 
 # RG
-az group create --name $grp --location $loc
+az group create --name $grp --location $loc 
 
 # Event Grid
-az eventgrid topic create --name $topicname -l $loc -g $grp
+az eventgrid topic create --name $topicname -l $loc -g $grp --no-wait
 
 # Cache
 az redis create --location $loc --name $cache --resource-group $grp --sku Basic --vm-size c0
@@ -25,7 +26,7 @@ $serverName="latencytestdbs$id"
 $databaseName="latencytestdb$id"
 
 az sql server create -l $loc -g $grp -n $serverName -u kamal -p Hello@12345#
-az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Basic --zone-redundant false --backup-storage-redundancy Local
+az sql db create --resource-group $grp --server $serverName --name $databaseName --edition Basic --zone-redundant false --backup-storage-redundancy Local  --no-wait
 az sql server firewall-rule create --name allowingall --server $serverName --resource-group $grp --start-ip-address 0.0.0.0 --end-ip-address 255.255.255.255
 
 # Creating a Function App in each region.
@@ -84,8 +85,6 @@ az functionapp config appsettings set --name $functionAppName --resource-group $
 
 
 az functionapp deployment source config --branch master --manual-integration --name $functionAppName --repo-url https://github.com/KamalRathnayake/LatencyTest.git --resource-group $grp
-
-
 
 # Sending events
 

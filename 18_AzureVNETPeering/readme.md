@@ -9,7 +9,7 @@ $vmName="SEA_VM_1"
 $vmName2="SEA_VM_2"
 
 # CREATE RESOURCE GROUP
-az group create --name $grp --location $location --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $location 
 
 # CREATE VIRTUAL NETWORK
 az network vnet create --address-prefixes 10.0.0.0/16 --name $vnetName --resource-group $grp

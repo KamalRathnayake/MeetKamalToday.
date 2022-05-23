@@ -1,0 +1,93 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "containerApps_sample_app_name": {
+            "defaultValue": "sample-app",
+            "type": "String"
+        },
+        "managedEnvironments_cne_rev_name": {
+            "defaultValue": "cne-rev",
+            "type": "String"
+        },
+        "loganalytics_key": {
+            "defaultValue": "HKcl3SRRZTkKLY3AKrW+4xxrsva1QAN0sgXqpQPtA+zQQbLehQnfY/WDRU4PkpSBqjpNsOh3KV9D58I/dPQjqA==",
+            "type": "String"
+        },
+        "loganalytics_customerid": {
+            "defaultValue": "08f28cd1-2dba-49e3-b186-35feff351858",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.App/managedEnvironments",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('managedEnvironments_cne_rev_name')]",
+            "location": "eastus",
+            "properties": {
+                "appLogsConfiguration": {
+                    "destination": "log-analytics",
+                    "logAnalyticsConfiguration": {
+                        "customerId": "[parameters('loganalytics_customerid')]",
+                        "sharedKey": "[parameters('loganalytics_key')]"
+                    }
+                }
+            }
+        },
+        {
+            "type": "Microsoft.App/containerApps",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('containerApps_sample_app_name')]",
+            "location": "East US",
+            "dependsOn": [
+                "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]"
+            ],
+            "identity": {
+                "type": "None"
+            },
+            "properties": {
+                "managedEnvironmentId": "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]",
+                "configuration": {
+                    "activeRevisionsMode": "Multiple",
+                    "ingress": {
+                        "external": true,
+                        "targetPort": 80,
+                        "transport": "Auto",
+                        "traffic": [
+                            {
+                                "weight": 100,
+                                "latestRevision": true
+                            }
+                        ],
+                        "allowInsecure": false
+                    }
+                },
+                "template": {
+                    "revisionSuffix": "createdbykamal-v2",
+                    "containers": [
+                        {
+                            "image": "kamalrathnayake/webapp:v2",
+                            "name": "[parameters('containerApps_sample_app_name')]",
+                            "resources": {
+                                "cpu": 0.75,
+                                "memory": "1.5Gi"
+                            },
+                            "env":[
+                                {
+                                    "name": "backend_url",
+                                    "value": "example.internal.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": {
+                        "minReplicas": 3,
+                        "maxReplicas": 5
+                    }
+                }
+            }
+        }
+    ]
+}

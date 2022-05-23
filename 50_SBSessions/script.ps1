@@ -8,7 +8,7 @@ $funcapp="consumer20211201"
 $sbNamespaceName="sessionsdemo"
 
 # CREATE RESOURCE GROUP
-az group create --name $grp --location $location --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $location 
 
 # CREATING SQL SERVER
 az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@12345#

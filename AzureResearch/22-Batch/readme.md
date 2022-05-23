@@ -7,7 +7,7 @@ $id = "202251"
 $storageAccountName = "storage$id"
 $batchAccountName = "videoencoder$id"
 
-az group create --name $grp --location $loc --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $loc 
 
 # Storage Account
 # * For Storing

@@ -1,0 +1,114 @@
+// arm tempalte output, arm output, output arm
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storage_name": {
+            "defaultValue": "sta2022115415",
+            "type": "string",
+            "metadata": {
+                "description": "description"
+            }
+        },
+        "log_analytics_name": {
+            "type": "string",
+            "defaultValue":"mysampleapp2022",
+            "metadata": {
+                "description": "description"
+            }
+        }
+    },
+    "functions": [],
+    "variables": {},
+    "resources": [
+        {
+            "name": "[parameters('storage_name')]",
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-04-01",
+            "tags": {
+                "displayName": "[parameters('storage_name')]"
+            },
+            "location": "[resourceGroup().location]",
+            "kind": "StorageV2",
+            "sku": {
+                "name": "Premium_LRS",
+                "tier": "Premium"
+            }
+        },
+        {
+            "type": "microsoft.operationalinsights/workspaces",
+            "apiVersion": "2021-12-01-preview",
+            "name": "[parameters('log_analytics_name')]",
+            "location": "eastus",
+            "properties": {
+                "sku": {
+                    "name": "pergb2018"
+                },
+                "retentionInDays": 30,
+                "features": {
+                    "enableLogAccessUsingOnlyResourcePermissions": true
+                },
+                "workspaceCapping": {
+                    "dailyQuotaGb": -1
+                },
+                "publicNetworkAccessForIngestion": "Enabled",
+                "publicNetworkAccessForQuery": "Enabled"
+            }
+        },
+        {
+            "name": "appServicePlan1",
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2020-12-01",
+            "location": "[resourceGroup().location]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storage_name'))]"
+            ],
+            "sku": {
+                "name": "F1",
+                "capacity": 1
+            },
+            "tags": {
+                "displayName": "appServicePlan1"
+            },
+            "properties": {
+                "name": "appServicePlan1"
+            }
+        },
+        {
+            "name": "app2022511421",
+            "type": "Microsoft.Web/sites",
+            "apiVersion": "2020-12-01",
+            "location": "[resourceGroup().location]",
+            "tags": {
+                "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/appServicePlan1')]": "Resource",
+                "displayName": "webApp1"
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/serverfarms', 'appServicePlan1')]"
+            ],
+            "properties": {
+                "name": "app2022511421",
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', 'appServicePlan1')]"
+            },
+            "resources": [
+                {
+                    "name": "appsettings",
+                    "type": "config",
+                    "apiVersion": "2015-08-01",
+                    "dependsOn": [
+                        "[concat('Microsoft.Web/sites/', 'app2022511421')]"
+                    ],
+                    "tags": {
+                        "CreatedBy": "kamalr@99x.io"
+                    },
+                    "properties": {
+                        "StorageKey": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storage_name'), ';AccountKey=', listKeys(resourceId(resourceGroup().name,'Microsoft.Storage/storageAccounts', parameters('storage_name')), '2019-04-01').keys[0].value,';EndpointSuffix=core.windows.net')]",
+                        "LogAnalyticsKey": "[listKeys(
+                            resourceId(resourceGroup().name, 'microsoft.operationalinsights/workspaces', parameters('log_analytics_name')), '2019-04-01').keys[0].value]"
+                    }
+                }
+            ]
+        }
+    ],
+    "outputs": {}
+}

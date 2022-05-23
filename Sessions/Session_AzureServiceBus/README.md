@@ -7,7 +7,7 @@ $sbNamespaceName = "kamalsnamespace"
 $sbQueueName = "the-queue"
 
 # CREATING RESOURCE GROUP
-az group create --name $grp --location $loc --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $loc 
 
 # CREATING WEB API APP
 az appservice plan create --name $pln --resource-group $grp --location $loc --sku Free

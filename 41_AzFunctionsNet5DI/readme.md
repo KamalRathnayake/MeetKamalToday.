@@ -5,7 +5,7 @@ $serverName="myserver20211031"
 $databaseName="mydatabase"
 
 # CREATING RESOURCE GROUP
-az group create --name $grp --location southeastasia --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location southeastasia 
 
 # CREATING SQL SERVER
 az sql server create -l southeastasia -g $grp -n $serverName -u kamal -p Hello@12345#

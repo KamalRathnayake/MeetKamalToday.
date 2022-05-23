@@ -7,7 +7,7 @@ $dbVMName="DBServerVM"
 # az vm image list --publisher Microsoft --all
 
 # CREATE RESOURCE GROUP
-az group create --name $grp --location $location --tags CreatedBy=kamalr@99x.io
+az group create --name $grp --location $location 
 
 # CREATING VM
 az vm create --resource-group $grp --name $vmName --location $location --image Win2019Datacenter --admin-username kamal --admin-password Hello@12345#

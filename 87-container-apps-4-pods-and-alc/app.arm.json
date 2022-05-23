@@ -1,0 +1,140 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "containerappName": {
+        "defaultValue": "mycontainerapp",
+        "type": "String"
+      },
+      "location": {
+        "defaultValue": "canadacentral",
+        "type": "String"
+      },
+      "environment_name": {
+        "defaultValue": "myenvironment",
+        "type": "String"
+      },
+      "container_image": {
+        "type": "String"
+      },
+      "registry_password": {
+        "type": "SecureString"
+      }
+    },
+    "variables": {},
+    "resources": [
+      {
+        "apiVersion": "2022-01-01-preview",
+        "type": "Microsoft.App/containerApps",
+        "name": "[parameters('containerappName')]",
+        "location": "[parameters('location')]",
+        "identity": {
+          "type": "None"      
+        },
+        "properties": {
+          "managedEnvironmentId": "[resourceId('Microsoft.App/managedEnvironments', parameters('environment_name'))]",
+          "configuration": {
+            "secrets": [
+              {
+                "name": "mysecret",
+                "value": "thisismysecret"
+              },
+              {
+                "name": "myregistrypassword",
+                "value": "[parameters('registry_password')]"
+              }
+            ],
+            "ingress": {
+              "external": true,
+              "targetPort": 80,
+              "allowInsecure": false,
+              "traffic": [
+                {
+                  "latestRevision": true,
+                  "weight": 100
+                }
+              ]
+            },
+            "registries": [
+              {
+                "server": "myregistry.azurecr.io",
+                "username": "[parameters('containerappName')]",
+                "passwordSecretRef": "myregistrypassword"
+              }
+            ],
+            "dapr": {
+              "appId": "[parameters('containerappName')]",
+              "appPort": 80,
+              "appProtocol": "http",
+              "enabled": true
+            }
+          },
+          "template": {
+            "revisionSuffix": "myrevision",
+            "containers": [
+              {
+                "name": "main",
+                "image": "[parameters('container_image')]",
+                "env": [
+                  {
+                    "name": "HTTP_PORT",
+                    "value": "80"
+                  },
+                  {
+                    "name": "SECRET_VAL",
+                    "secretRef": "mysecret"
+                  }
+                ],
+                "resources": {
+                  "cpu": 0.5,
+                  "memory": "1Gi"
+                },
+                "probes":[
+                    {
+                        "type":"liveness",
+                        "httpGet":{
+                        "path":"/health",
+                        "port":8080,
+                        "httpHeaders":[
+                            {
+                                "name":"Custom-Header",
+                                "value":"liveness probe"
+                            }]
+                        },
+                        "initialDelaySeconds":7,
+                        "periodSeconds":3
+                    },
+                    {
+                        "type":"readiness",
+                        "tcpSocket":
+                            {
+                                "port": 8081
+                            },
+                        "initialDelaySeconds": 10,
+                        "periodSeconds": 3
+                    },
+                    {
+                        "type": "startup",
+                        "httpGet": {
+                            "path": "/startup",
+                            "port": 8080,
+                            "httpHeaders": [
+                                {
+                                    "name": "Custom-Header",
+                                    "value": "startup probe"
+                                }]
+                        },
+                        "initialDelaySeconds": 3,
+                        "periodSeconds": 3
+                    }]
+              }
+            ],
+            "scale": {
+              "minReplicas": 1,
+              "maxReplicas": 3
+            }
+          }
+        }
+      }
+    ]
+  }
