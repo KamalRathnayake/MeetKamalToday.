@@ -1,0 +1,113 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "containerApps_sample_app_name": {
+            "defaultValue": "hpe-demo-app",
+            "type": "String"
+        },
+        "managedEnvironments_cne_rev_name": {
+            "defaultValue": "cne-probes",
+            "type": "String"
+        },
+        "loganalytics_key": {
+            "defaultValue": "qqaxcIfOBxitxanEsvSgxJG3pIoDZyxY+ywhiDX4O644yqBo356gb3awXdZHBl47GjlGpTFCdvsAlYx6iPQcng==",
+            "type": "String"
+        },
+        "loganalytics_customerid": {
+            "defaultValue": "cb7efddf-b7da-459a-b663-88f22b80b1b7",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.App/managedEnvironments",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('managedEnvironments_cne_rev_name')]",
+            "location": "eastus",
+            "properties": {
+                "appLogsConfiguration": {
+                    "destination": "log-analytics",
+                    "logAnalyticsConfiguration": {
+                        "customerId": "[parameters('loganalytics_customerid')]",
+                        "sharedKey": "[parameters('loganalytics_key')]"
+                    }
+                }
+            }
+        },
+        {
+            "type": "Microsoft.App/containerApps",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('containerApps_sample_app_name')]",
+            "location": "East US",
+            "dependsOn": [
+                "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]"
+            ],
+            "identity": {
+                "type": "None"
+            },
+            "properties": {
+                "managedEnvironmentId": "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]",
+                "configuration": {
+                    "activeRevisionsMode": "Multiple",
+                    "ingress": {
+                        "external": true,
+                        "targetPort": 80,
+                        "transport": "Auto",
+                        "traffic": [
+                            {
+                                "weight": 100,
+                                "latestRevision": true
+                            }
+                        ],
+                        "allowInsecure": false
+                    }
+                },
+                "template": {
+                    "containers": [
+                        {
+                            "image": "kamalrathnayake/hpdemoapp:v2",
+                            "name": "[parameters('containerApps_sample_app_name')]",
+                            "probes":[
+                                {
+                                    "type": "liveness",
+                                    "httpGet": {
+                                        "path":"/home/liveness",
+                                        "port":80
+                                    },
+                                    "initialDelaySeconds": 3,
+                                    "periodSeconds": 2
+                                },
+                                {
+                                    "type": "readiness",
+                                    "httpGet": {
+                                        "path":"/home/readiness",
+                                        "port":80
+                                    },
+                                    "initialDelaySeconds": 3,
+                                    "periodSeconds": 3
+                                },
+                                {
+                                    "type": "startup",
+                                    "httpGet": {
+                                        "path":"/home/startup",
+                                        "port":80
+                                    }
+                                }
+                            ],
+                            "resources": {
+                                "cpu": 0.5,
+                                "memory": "1Gi"
+                            }
+                        }
+                    ],
+                    "scale": {
+                        "minReplicas": 1,
+                        "maxReplicas": 5
+                    }
+                }
+            }
+        }
+    ]
+}

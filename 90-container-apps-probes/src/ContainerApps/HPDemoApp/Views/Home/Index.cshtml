@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Health Prob Logs</h1>
+    <p>Instance Id - @ViewBag.InstanceId</p>
+
+    @foreach (var log in ViewBag.Logs)
+    {
+        <p>@log</p>
+    }
+
+</div>
