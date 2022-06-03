@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  my-first-app
+  namespace: default
+  labels:
+    app:  my-first-app
+spec:
+  selector:
+    matchLabels:
+      app: my-first-app
+  replicas: 2 
+  template:
+    metadata:
+      labels:
+        app:  my-first-app
+    spec:
+      containers:
+      - name:  my-first-app
+        image:  kamalrathnayake/hpdemoapp:v2
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort:  80
+          name:  my-first-app
+      restartPolicy: Always
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  my-first-db
+  namespace: default
+  labels:
+    app:  my-first-db
+spec:
+  selector:
+    matchLabels:
+      app: my-first-db
+  replicas: 2 
+  template:
+    metadata:
+      labels:
+        app:  my-first-db
+    spec:
+      containers:
+      - name:  my-first-db
+        image:  mysql:5.7
+        env: 
+        - name: MYSQL_ROOT_PASSWORD
+          value: somewordpress
+        - name: MYSQL_DATABASE
+          value: wordpress
+        - name: MYSQL_USER
+          value: wordpress
+        - name: MYSQL_PASSWORD
+          value: wordpress
+        ports:
+        - containerPort:  3306
+          name:  my-first-db
+      restartPolicy: Always

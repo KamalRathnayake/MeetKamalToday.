@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "BackgroundProcessingApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7200"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34649,
+      "useSSL": false
+    }
+  }
+}
