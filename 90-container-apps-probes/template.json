@@ -11,11 +11,9 @@
             "type": "String"
         },
         "loganalytics_key": {
-            "defaultValue": "qqaxcIfOBxitxanEsvSgxJG3pIoDZyxY+ywhiDX4O644yqBo356gb3awXdZHBl47GjlGpTFCdvsAlYx6iPQcng==",
             "type": "String"
         },
         "loganalytics_customerid": {
-            "defaultValue": "cb7efddf-b7da-459a-b663-88f22b80b1b7",
             "type": "String"
         }
     },
