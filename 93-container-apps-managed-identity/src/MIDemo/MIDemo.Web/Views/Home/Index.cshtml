@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (!string.IsNullOrEmpty(ViewBag.SecretValue))
+    {
+        <h1 class="display-4">@ViewBag.SecretValue</h1>
+    }
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <p>Error - @ViewBag.Error</p>
+    }
+</div>
