@@ -1,0 +1,216 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": { 
+        "containerApps_sample_app_name": {
+            "defaultValue": "writer-app",
+            "type": "String"
+        },
+        "containerApps_sample_app_name_2": {
+            "defaultValue": "reader-app",
+            "type": "String"
+        },
+        "managedEnvironments_cne_rev_name": {
+            "defaultValue": "cne-rev",
+            "type": "String"
+        },
+        "loganalytics_key": { 
+            "type": "String"
+        },
+        "loganalytics_customerid": { 
+            "type": "String"
+        },
+        "storage_account_name": { 
+            "type": "String",
+            "defaultValue":"storage20220729"
+        },
+        "storage_share_name": { 
+            "type": "String",
+            "defaultValue":"the-file-share"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "name": "[parameters('storage_account_name')]",
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-04-01",
+            "tags": {
+                "displayName": "[parameters('storage_account_name')]"
+            },
+            "location": "[resourceGroup().location]",
+            "kind": "StorageV2",
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/fileServices/shares",
+            "apiVersion": "2021-09-01",
+            "name": "[concat(parameters('storage_account_name'), '/default/the-file-share')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storage_account_name'))]"
+            ],
+            "properties": {
+                "accessTier": "Hot",
+                "shareQuota": 5120,
+                "enabledProtocols": "SMB"
+            }
+        },
+        {
+            "type": "Microsoft.App/managedEnvironments",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('managedEnvironments_cne_rev_name')]",
+            "location": "eastus",
+            "properties": {
+                "appLogsConfiguration": {
+                    "destination": "log-analytics",
+                    "logAnalyticsConfiguration": {
+                        "customerId": "[parameters('loganalytics_customerid')]",
+                        "sharedKey": "[parameters('loganalytics_key')]"
+                    }
+                }
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storage_account_name'))]"
+            ],
+            "resources": [
+                {
+                "type": "storages",
+                "name": "myazurefiles",
+                "apiVersion": "2022-03-01",
+                "dependsOn": [
+                    "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]"
+                ],
+                "properties": {
+                    "azureFile": {
+                    "accountName": "[parameters('storage_account_name')]",
+                    "accountKey": "[listKeys(resourceId(resourceGroup().name,'Microsoft.Storage/storageAccounts', parameters('storage_account_name')), '2019-04-01').keys[0].value]",
+                    "shareName": "[parameters('storage_share_name')]",
+                    "accessMode": "ReadWrite"
+                    }
+                }
+                }
+            ]
+        },
+        {
+            "type": "Microsoft.App/containerApps",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('containerApps_sample_app_name')]",
+            "location": "East US",
+            "dependsOn": [
+                "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]"
+            ],
+            "identity": {
+                "type": "None"
+            },
+            "properties": {
+                "managedEnvironmentId": "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]",
+                "configuration": {
+                    "activeRevisionsMode": "Multiple",
+                    "ingress": {
+                        "external": true,
+                        "targetPort": 80,
+                        "transport": "Auto",
+                        "traffic": [
+                            {
+                                "weight": 100,
+                                "latestRevision": true
+                            }
+                        ],
+                        "allowInsecure": false
+                    }
+                },
+                "template": {
+                    "containers": [
+                        {
+                            "image": "kamalrathnayake/writer:latest",
+                            "name": "writer",
+                            "resources": {
+                                "cpu": 0.5,
+                                "memory": "1Gi"
+                            },
+                            "volumeMounts":[
+                                {
+                                    "mountPath":"/app/images",
+                                    "volumeName": "azure-files-volume"
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": {
+                        "minReplicas": 0,
+                        "maxReplicas": 5
+                    },
+                    "volumes":[
+                        {
+                            "name": "azure-files-volume",
+                            "storageType": "AzureFile",
+                            "storageName": "myazurefiles"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "Microsoft.App/containerApps",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('containerApps_sample_app_name_2')]",
+            "location": "East US",
+            "dependsOn": [
+                "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]"
+            ],
+            "identity": {
+                "type": "None"
+            },
+            "properties": {
+                "managedEnvironmentId": "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_rev_name'))]",
+                "configuration": {
+                    "activeRevisionsMode": "Multiple",
+                    "ingress": {
+                        "external": true,
+                        "targetPort": 80,
+                        "transport": "Auto",
+                        "traffic": [
+                            {
+                                "weight": 100,
+                                "latestRevision": true
+                            }
+                        ],
+                        "allowInsecure": false
+                    }
+                },
+                "template": {
+                    "containers": [
+                        {
+                            "image": "kamalrathnayake/reader:latest",
+                            "name": "reader",
+                            "resources": {
+                                "cpu": 0.5,
+                                "memory": "1Gi"
+                            },
+                            "volumeMounts":[
+                                {
+                                    "mountPath":"/app/images",
+                                    "volumeName": "azure-files-volume"
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": {
+                        "minReplicas": 0,
+                        "maxReplicas": 5
+                    },
+                    "volumes":[
+                        {
+                            "name": "azure-files-volume",
+                            "storageType": "AzureFile",
+                            "storageName": "myazurefiles"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

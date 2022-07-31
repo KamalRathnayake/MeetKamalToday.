@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4" style="text-align:left">Read Files</h1>
+    @foreach (var file in ViewBag.Files)
+    {
+        <div style="width:200px; height:200px; margin: 5px; float:left; padding:20px;background-color: #c3c3c3d9;">
+            <p>@file</p>
+        </div>
+    }
+</div>
