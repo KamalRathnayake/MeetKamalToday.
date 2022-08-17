@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1 class="display-4">Welcome @ViewBag.Email</h1>
+    @if (!string.IsNullOrEmpty(ViewBag.Email))
+    {
+        <a href="/.auth/logout?post_logout_redirect_uri=/home/logoutsuccess">➡️ Sign Out</a>
+    }
+    <hr />
+
+    @foreach (var header in ViewBag.Headers)
+    {
+        <p><b>@header.Key</b>: @header.Value</p>
+    }
+</div>
