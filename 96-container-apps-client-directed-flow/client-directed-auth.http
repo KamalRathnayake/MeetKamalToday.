@@ -1,0 +1,12 @@
+POST https://yourapp.azurecontainerapps.io/.auth/login/google
+Content-Type: application/json
+
+{
+    "id_token":"",
+    "access_token":""
+}
+
+###
+
+GET https://yourapp.azurecontainerapps.io/api/values HTTP/1.1
+X-ZUMO-AUTH: <header>
