@@ -1,0 +1,108 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "managedEnvironments_cne_name": {
+            "defaultValue": "cne",
+            "type": "String"
+        },
+        "containerapps_secrets_demo_app_name": {
+            "defaultValue": "secrets-demo-app",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.App/managedEnvironments",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('managedEnvironments_cne_name')]",
+            "location": "eastus",
+            "properties": {
+                "appLogsConfiguration": {
+                    "destination": "log-analytics",
+                    "logAnalyticsConfiguration": {
+                        "customerId": "f5619e44-3514-4041-9082-42e05ef2804a"
+                    }
+                },
+                "zoneRedundant": false
+            }
+        },
+        {
+            "type": "Microsoft.App/containerapps",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('containerapps_secrets_demo_app_name')]",
+            "location": "East US",
+            "dependsOn": [
+                "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_name'))]"
+            ],
+            "identity": {
+                "type": "None"
+            },
+            "properties": {
+                "managedEnvironmentId": "[resourceId('Microsoft.App/managedEnvironments', parameters('managedEnvironments_cne_name'))]",
+                "configuration": {
+                    "secrets": [
+                        {
+                            "name": "key1"
+                            //"value": "[parameters('key1-param')]" - can have the value as a ref
+                        }
+                    ],
+                    "activeRevisionsMode": "Single",
+                    "ingress": {
+                        "external": true,
+                        "targetPort": 80,
+                        "transport": "Auto",
+                        "traffic": [
+                            {
+                                "weight": 100,
+                                "latestRevision": true
+                            }
+                        ],
+                        "allowInsecure": false
+                    }
+                },
+                "template": {
+                    "containers": [
+                        {
+                            "image": "kamalrathnayake/secretsdemo:latest",
+                            "name": "[parameters('containerapps_secrets_demo_app_name')]",
+                            "env": [
+                                {
+                                    "name": "key1",
+                                    "secretRef": "key1"
+                                    // "value": "My Env Value"
+                                }
+                            ],
+                            "resources": {
+                                "cpu": 0.5,
+                                "memory": "1Gi"
+                            },
+                            "probes": []
+                        },
+                        {
+                            "image": "docker.io/nginx",
+                            "name": "nginx",
+                            "env": [
+                                {
+                                    "name": "k1",
+                                    "secretRef": "key1"
+                                }
+                            ],
+                            "resources": {
+                                "cpu": 0.25,
+                                "memory": "0.5Gi"
+                            },
+                            "probes": []
+                        }
+                    ],
+                    "scale": {
+                        "minReplicas": 0,
+                        "maxReplicas": 10
+                    }
+                }
+            }
+        }
+        
+    ]
+}
